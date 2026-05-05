@@ -1,0 +1,15 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:\data\2026\cb\ga/(R)-(+)-N(1-phenylethyl)-succinamic acid/11/pdata/1001/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-02-16 19:42:32.199 -0000>,<nmrsu/600 user>,<CZC1087C56>,<mvrow>,<TopSpin 4.1.3>,
+      <rsr 1008 from
+       1 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       data hash MD5: 2K
+       37 EC DF 0D DE 9A B8 99 51 E6 0D 18 81 AA 31 CD>)
+##END=
+
+$$ hash MD5
+$$ 9D 34 28 5E 5A 95 FD 72 12 67 34 3E DA E7 4C 25

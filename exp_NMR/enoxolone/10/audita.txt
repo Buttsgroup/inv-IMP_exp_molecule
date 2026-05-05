@@ -1,0 +1,39 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= root
+$$ /root/.topspin-BladeEpu/local_acqu/enoxolone/10/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-03-23 16:29:06.940 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+$$ D:/data/2026/va/rc/enoxolone/10/audita.txt
+(   2,<2026-03-23 16:29:38.223 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <created by zg on 'Avance' (CZC1087C56) by user 'CZC1087C56\nmrsu'
+       on data set with UUID '69b6235a-26d5-11f1-bcd6-0030d62936cd'
+       started at 2026-03-23 16:29:06.967 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-03-23 16:29:38.220 +0000
+       configuration hash MD5:
+       7F E6 30 42 0C AE 00 D8 7F CA 1A 40 93 25 33 26
+       double data hash MD5: 64K
+       6F F7 8E 8D DC C9 C3 1D 7A C0 FF 8D CA 13 8B 37>)
+(   3,<2026-03-23 16:28:26.701 -0000>,<nmrsu>,<CZC1087C56>,<dataserver>,<TopSpin 4.1.3>,
+      <>)
+(   4,<2026-03-23 16:28:49.889 -0000>,<nmrsu>,<CZC1087C56>,<dataserver>,<TopSpin 4.1.3>,
+      <>)
+(   5,<2026-03-23 16:30:17.129 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <raw data deleted by zg>)
+(   6,<2026-03-23 16:30:17.135 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+(   7,<2026-03-23 16:30:48.509 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <created by zg on 'Avance' (CZC1087C56) by user 'CZC1087C56\nmrsu'
+       on data set with UUID '938c5c12-26d5-11f1-922c-0030d62936cd'
+       started at 2026-03-23 16:30:17.161 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-03-23 16:30:48.507 +0000
+       configuration hash MD5:
+       7F E6 30 42 0C AE 00 D8 7F CA 1A 40 93 25 33 26
+       double data hash MD5: 64K
+       02 B7 3D DF 59 E1 9E 18 99 64 D9 A2 89 6B 56 99>)
+##END=
+
+$$ hash MD5
+$$ AC 82 FF BE 94 BF 50 47 0E D6 3D B8 BB B9 FF 86

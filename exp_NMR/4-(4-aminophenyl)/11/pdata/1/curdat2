@@ -1,0 +1,17 @@
+##TITLE= Parameter file, TopSpin 4.1.3
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ 2026-02-16 16:38:53.931 -0000  nmrsu@CZC1087C56
+$$ D:/data/2026/cb/ga/4-(4-aminophenyl)/11/pdata/1/curdat2
+$$ process C:\Bruker\TopSpin4.1.3\prog\mod\dataserver.exe
+##$DATPATH2= <D:/data/2026/cb/ga>
+##$DU2= <>
+##$EXPNO2= 10
+##$NAME2= <4-(4-aminophenyl)>
+##$PROCNO2= 1
+##$TYPE= <>
+##$USER2= <>
+##END=

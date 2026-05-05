@@ -1,0 +1,52 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:/data/2026/va/rc/enoxolone/10/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-03-23 16:29:06.940 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+$$ D:/data/2026/va/rc/enoxolone/10/audita.txt
+(   2,<2026-03-23 16:29:38.223 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <created by zg on 'Avance' (CZC1087C56) by user 'CZC1087C56\nmrsu'
+       on data set with UUID '69b6235a-26d5-11f1-bcd6-0030d62936cd'
+       started at 2026-03-23 16:29:06.967 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-03-23 16:29:38.220 +0000
+       configuration hash MD5:
+       7F E6 30 42 0C AE 00 D8 7F CA 1A 40 93 25 33 26
+       double data hash MD5: 64K
+       6F F7 8E 8D DC C9 C3 1D 7A C0 FF 8D CA 13 8B 37>)
+(   3,<2026-03-23 16:28:11.393 -0000>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       em LB = 0.3 SI = 64K 
+       data hash MD5: 64K
+       DC D1 E9 AE 15 5D EE 7D 26 8E B3 D9 47 97 68 A5>)
+(   4,<2026-03-23 16:28:11.476 -0000>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <ft FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       9D A4 99 CD 58 D2 7F D3 34 10 8F 1A A5 5C D6 ED>)
+(   5,<2026-03-23 16:28:11.776 -0000>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <apk 
+       data hash MD5: 64K
+       C4 69 96 42 54 F1 67 33 B5 4C A3 64 15 D8 FC 9A>)
+(   6,<2026-03-23 16:28:11.839 -0000>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       26 FD C6 A7 FA 64 16 65 A8 60 31 02 6D BB 54 66>)
+(   7,<2026-03-23 16:29:26.516 -0000>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       ft FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       FD 65 64 F1 EA 6D 84 09 68 35 01 99 E6 4B 9D 59>)
+(   8,<2026-03-23 16:29:27.672 -0000>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <apk 
+       data hash MD5: 64K
+       FA 51 48 C5 02 86 25 CA B6 6D B8 08 B7 F8 E5 EE>)
+(   9,<2026-03-23 16:29:28.781 -0000>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       E4 54 21 1D 40 59 40 97 AA 2C 9F 0E 80 17 32 BC>)
+##END=
+
+$$ hash MD5
+$$ 05 00 4E 11 76 92 1A A4 96 2C 58 36 6E 32 EA F4

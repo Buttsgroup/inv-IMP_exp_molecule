@@ -1,0 +1,26 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= root
+$$ /root/.topspin-BladeEpu/local_acqu/Reserpine/4/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-04-29 13:23:34.296 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+$$ D:/data/2026/cb/ga/Reserpine/4/audita.txt
+(   2,<2026-04-29 13:38:30.903 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <created by zg on 'Avance' (CZC1087C56) by user 'CZC1087C56\nmrsu'
+       on data set with UUID '9f429272-43ce-11f1-93b2-0030d62936cd'
+       started at 2026-04-29 13:23:34.319 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-04-29 13:38:30.901 +0000
+       configuration hash MD5:
+       7F E6 30 42 0C AE 00 D8 7F CA 1A 40 93 25 33 26
+       double data hash MD5: 2K * 128
+       56 9B 5C 76 05 2D 0F E5 60 1C F0 3B 55 57 90 B0>)
+(   3,<2026-04-29 14:38:24.817 +0100>,<nmrsu>,<CZC1087C56>,<xwish3>,<TopSpin 4.1.3>,
+      <ICON-NMR User ID: 600 user
+       double data hash MD5: 2K * 128
+       56 9B 5C 76 05 2D 0F E5 60 1C F0 3B 55 57 90 B0>)
+##END=
+
+$$ hash MD5
+$$ FD A7 F5 54 17 73 05 57 FD C0 1C 16 FE 7C 0F A5

@@ -1,0 +1,38 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:\data\2026\cb\ga/8200-Nbenzyl-selexp/14/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-01-27 14:33:50.293 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+(   2,<2026-01-27 14:35:07.982 -0000>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       ft FT_mod = 6 PKNL = 1 SI = 32K 
+       data hash MD5: 32K
+       86 6E 58 92 9E 0E 9C 6A 1B 42 77 B5 E4 F5 64 CD>)
+(   3,<2026-01-27 14:35:09.037 -0000>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <apk 
+       data hash MD5: 32K
+       58 C9 27 B3 EB 02 2D 02 CB 60 AF EA 9E AC 7A 7A>)
+(   4,<2026-01-27 14:35:10.304 -0000>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <abs n ABSG = 5 
+       data hash MD5: 32K
+       53 90 BE 66 A7 9F DD 07 B5 83 00 73 7C 9A 3B 93>)
+(   5,<2026-01-27 14:36:21.844 -0000>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       ft FT_mod = 6 PKNL = 1 SI = 32K 
+       data hash MD5: 32K
+       0F 8B B3 B6 2D B4 2D 00 06 FD 7B 74 AF FB 38 73>)
+(   6,<2026-01-27 14:36:23.313 -0000>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <apk 
+       data hash MD5: 32K
+       8E D5 BA 72 17 97 7B AE 44 E8 A1 42 59 2F 65 A2>)
+(   7,<2026-01-27 14:36:25.264 -0000>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <abs n ABSG = 5 
+       data hash MD5: 32K
+       9F 8E D5 BB 7A C7 A6 74 65 1A 9B 26 A9 31 DD 16>)
+##END=
+
+$$ hash MD5
+$$ B7 09 A9 87 9E 89 9A 2B 21 1C 58 5C EC FB 1D CB

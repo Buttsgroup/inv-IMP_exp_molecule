@@ -1,0 +1,91 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:\data\2026\cb\ga/(R)-(+)-N(1-phenylethyl)-succinamic acid/11/pdata/1000/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-02-16 19:42:31.183 -0000>,<nmrsu/600 user>,<CZC1087C56>,<mvrow>,<TopSpin 4.1.3>,
+      <rsr 49 from
+       1 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       data hash MD5: 2K
+       0D 6E DA B2 BE 31 E9 69 00 53 AE 6F F3 22 C4 3B>)
+(   2,<2026-02-16 19:42:31.293 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       1001 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       data hash MD5: 2K
+       59 EE 42 F2 B2 A8 28 EC 0C 8D 1B 3F F1 EA 1F EE>)
+(   3,<2026-02-16 19:42:31.371 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       1001 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       data hash MD5: 2K
+       C9 B8 11 3B 98 E0 FD D5 DB 66 7A 9A 5B C7 BB 58>)
+(   4,<2026-02-16 19:42:31.465 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       1001 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       data hash MD5: 2K
+       FE 5D 57 BC 57 E2 E9 9E D4 73 D4 53 93 E5 B9 A4>)
+(   5,<2026-02-16 19:42:31.543 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       1001 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       data hash MD5: 2K
+       AB 29 F1 D9 D0 48 1B F7 8B 52 B0 70 B6 FE D4 44>)
+(   6,<2026-02-16 19:42:31.652 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       1001 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       data hash MD5: 2K
+       5A D3 09 C5 20 AF C6 CA BE 0E E0 A3 49 3B AD C3>)
+(   7,<2026-02-16 19:42:31.730 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       1001 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       data hash MD5: 2K
+       96 F7 8B 17 B4 6B 9F AF DA 08 8D 50 A7 7D 67 2D>)
+(   8,<2026-02-16 19:42:31.824 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       1001 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       data hash MD5: 2K
+       06 1C AE 22 D3 F2 82 6A B3 BC 48 F3 B8 85 5C 9F>)
+(   9,<2026-02-16 19:42:31.902 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       1001 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       data hash MD5: 2K
+       D4 13 9E CC 13 63 BF B8 8D 54 18 83 0A 8E 23 1B>)
+(  10,<2026-02-16 19:42:31.996 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       1001 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       data hash MD5: 2K
+       D7 F1 B9 21 FD 0D 31 D0 A4 E2 63 C4 FC E6 4D F5>)
+(  11,<2026-02-16 19:42:32.089 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       1001 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       data hash MD5: 2K
+       E6 CE DA 66 9B 2B 1F 8F 24 FD A0 30 E2 98 64 DE>)
+(  12,<2026-02-16 19:42:32.168 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       1001 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       data hash MD5: 2K
+       C3 03 43 F7 D3 88 E1 15 B1 ED 3A 19 F4 D0 34 D5>)
+(  13,<2026-02-16 19:42:32.246 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       1001 11 "(R)-(+)-N(1-phenylethyl)-succinamic acid" "D:\data\2026\cb\ga"
+       data hash MD5: 2K
+       3E DF 9E F7 90 D0 B8 C9 05 3E 60 30 CD F8 EB 5C>)
+(  14,<2026-02-16 19:42:32.308 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <apk 
+       data hash MD5: 2K
+       15 B1 AA 2E 5F 66 66 AA 48 6D 6A FA 8B D7 8F 7E>)
+##END=
+
+$$ hash MD5
+$$ 8C 66 0C F8 68 E6 C5 12 67 1C 93 78 37 D7 89 12

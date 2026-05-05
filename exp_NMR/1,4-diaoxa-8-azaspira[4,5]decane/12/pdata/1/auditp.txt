@@ -1,0 +1,57 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:\data\2026\cb\ga/1,4-diaoxa-8-azaspira[4,5]decane/12/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-02-16 18:15:13.800 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+$$ D:/data/2026/cb/ga/1,4-diaoxa-8-azaspira[4,5]decane/12/audita.txt
+(   2,<2026-02-16 19:19:32.153 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <created by zg on 'Avance' (CZC1087C56) by user 'CZC1087C56\nmrsu'
+       on data set with UUID '7019baa0-0b63-11f1-81e4-0030d62936cd'
+       started at 2026-02-16 18:15:13.825 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-02-16 19:19:32.150 +0000
+       configuration hash MD5:
+       7F E6 30 42 0C AE 00 D8 7F CA 1A 40 93 25 33 26
+       double data hash MD5: 4K * 32
+       62 32 60 81 DD 2A D7 BF 26 CB 2A AE A9 4B 3D 92>)
+(   3,<2026-02-16 19:19:22.619 -0000>,<nmrsu>,<CZC1087C56>,<xwish3>,<TopSpin 4.1.3>,
+      <ICON-NMR User ID: 600 user
+       double data hash MD5: 4K * 32
+       62 32 60 81 DD 2A D7 BF 26 CB 2A AE A9 4B 3D 92>)
+(   4,<2026-02-16 19:19:24.103 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc2d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       xf2 td1 64 nodisp F2: SI = 4K WDW = 3 SSB = 0 FT_mod = 6 PKNL = 1 F1: SI = 1K
+       data hash MD5: 4K * 1K
+       2C 7A B8 5A 89 32 83 E9 8C 93 1E 95 11 AD D1 82>)
+(   5,<2026-02-16 19:19:24.556 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc2d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       xf2 nd2d nodisp F2: SI = 4K WDW = 3 SSB = 0 FT_mod = 6 PKNL = 1 F1: SI = 1K
+       data hash MD5: 4K * 1K
+       E3 AA 40 F7 B4 39 9D 94 BC 66 50 2A 45 A1 B6 BC>)
+(   6,<2026-02-16 19:19:26.790 -0000>,<nmrsu/600 user>,<CZC1087C56>,<mddnmr>,<TopSpin 4.1.3>,
+      <mdd: parameter modification due to missing license
+       Mdd_mod = cs Mdd_CsALG = ist
+       data hash MD5: 4K * 1K
+       0E 68 13 A6 87 81 5D EE 82 08 60 D2 AB 7B 2C 7C>)
+(   7,<2026-02-16 19:19:27.321 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc2d>,<TopSpin 4.1.3>,
+      <xf1 F1: SI = 1K ME_mod = 2 NCOEF = 32 WDW = 3 SSB = 0 FT_mod = 6 FCOR = 0.5 PH_mod = 2
+       data hash MD5: 4K * 1K
+       4B 60 2E 3D F3 DD 8E 58 91 DC 01 58 A8 D7 75 7C>)
+(   8,<2026-02-16 19:19:27.524 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc2d>,<TopSpin 4.1.3>,
+      <abs2 F2: ABSG = 5 ABSF1 = 12.50987 ABSF2 = -0.5098788
+       data hash MD5: 4K * 1K
+       37 29 9F 3C 58 A0 6D F0 C3 A8 99 E7 84 F4 24 02>)
+(   9,<2026-02-16 19:19:29.789 -0000>,<nmrsu/600 user>,<CZC1087C56>,<proc2d>,<TopSpin 4.1.3>,
+      <abs1 F1: ABSG = 5 ABSF1 = 525.05 ABSF2 = 274.95
+       data hash MD5: 4K * 1K
+       9E A1 B6 5A F4 ED 3B 9F E4 CD 56 40 3D 3E D3 16>)
+(  10,<2026-02-16 19:19:32.382 -0000>,<nmrsu/600 user>,<CZC1087C56>,<xwish3>,<TopSpin 4.1.3>,
+      <ICON-NMR User ID: 600 user
+       data hash MD5: 4K * 1K
+       9E A1 B6 5A F4 ED 3B 9F E4 CD 56 40 3D 3E D3 16>)
+##END=
+
+$$ hash MD5
+$$ DC 5C 3C 8F 57 40 38 B7 B3 A6 8F 7B 7B 9D 79 8C

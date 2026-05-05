@@ -1,0 +1,7 @@
+   Current data set:
+   NAME =	4-(4-aminophenyl)	EXPNO =	10	PROCNO = 1
+   DU   =	D:/data/2026/cb/ga
+
+   Number   Integrated Region     Integral
+     1      3.504      3.462         1.00000
+     2      3.020      2.931         2.41778

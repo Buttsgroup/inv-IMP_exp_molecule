@@ -1,0 +1,97 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:/data/2026/cb/ga/Reserpine/7/pdata/1000/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-04-29 14:44:00.237 +0100>,<nmrsu/600 user>,<CZC1087C56>,<mvrow>,<TopSpin 4.1.3>,
+      <rsr 59 from
+       1 7 "Reserpine" "D:/data/2026/cb/ga"
+       data hash MD5: 128
+       D4 80 BA 83 8B 3C C2 AA 97 45 66 7D 65 85 FB B5>)
+(   2,<2026-04-29 14:44:00.362 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 7 "Reserpine" "D:/data/2026/cb/ga"
+       1001 7 "Reserpine" "D:/data/2026/cb/ga"
+       data hash MD5: 128
+       6D A4 32 46 D9 E7 A3 C2 86 68 38 65 A2 FA 96 06>)
+(   3,<2026-04-29 14:44:00.456 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 7 "Reserpine" "D:/data/2026/cb/ga"
+       1001 7 "Reserpine" "D:/data/2026/cb/ga"
+       data hash MD5: 128
+       E8 F8 83 70 7F 05 FB 1F 88 32 4F BF 6C DD 19 C3>)
+(   4,<2026-04-29 14:44:00.534 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 7 "Reserpine" "D:/data/2026/cb/ga"
+       1001 7 "Reserpine" "D:/data/2026/cb/ga"
+       data hash MD5: 128
+       1B 32 67 19 D4 F4 25 90 58 6B 8E CF 59 85 86 D7>)
+(   5,<2026-04-29 14:44:00.628 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 7 "Reserpine" "D:/data/2026/cb/ga"
+       1001 7 "Reserpine" "D:/data/2026/cb/ga"
+       data hash MD5: 128
+       E6 C2 F7 53 AF 8F EC 1E A3 81 99 E7 B0 B3 D3 1F>)
+(   6,<2026-04-29 14:44:00.706 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 7 "Reserpine" "D:/data/2026/cb/ga"
+       1001 7 "Reserpine" "D:/data/2026/cb/ga"
+       data hash MD5: 128
+       B2 19 99 F2 4F 43 55 5B 49 12 C9 AD BB 5D B4 DA>)
+(   7,<2026-04-29 14:44:00.799 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 7 "Reserpine" "D:/data/2026/cb/ga"
+       1001 7 "Reserpine" "D:/data/2026/cb/ga"
+       data hash MD5: 128
+       2D 4A 9D 44 A9 AC 2E 7E 08 72 4B 5F 86 79 EA 64>)
+(   8,<2026-04-29 14:44:00.878 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 7 "Reserpine" "D:/data/2026/cb/ga"
+       1001 7 "Reserpine" "D:/data/2026/cb/ga"
+       data hash MD5: 128
+       84 D2 01 D4 C7 54 9A 6F C3 A4 D4 D2 5C 72 1F DE>)
+(   9,<2026-04-29 14:44:00.971 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 7 "Reserpine" "D:/data/2026/cb/ga"
+       1001 7 "Reserpine" "D:/data/2026/cb/ga"
+       data hash MD5: 128
+       68 A4 0E 54 F4 44 91 E1 8B 4B 1D C8 9D 10 3E E9>)
+(  10,<2026-04-29 14:44:01.049 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 7 "Reserpine" "D:/data/2026/cb/ga"
+       1001 7 "Reserpine" "D:/data/2026/cb/ga"
+       data hash MD5: 128
+       ED EF 96 95 B2 EB B8 5B AF 11 E9 CB B5 C7 C8 95>)
+(  11,<2026-04-29 14:44:01.133 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 7 "Reserpine" "D:/data/2026/cb/ga"
+       1001 7 "Reserpine" "D:/data/2026/cb/ga"
+       data hash MD5: 128
+       5F C8 8A 9E 0F 5E DF 99 9E 84 B7 87 6E 40 23 51>)
+(  12,<2026-04-29 14:44:01.219 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 7 "Reserpine" "D:/data/2026/cb/ga"
+       1001 7 "Reserpine" "D:/data/2026/cb/ga"
+       data hash MD5: 128
+       53 AC 35 58 CF 44 A4 DF 64 92 5B 3C FC 99 37 22>)
+(  13,<2026-04-29 14:44:01.316 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 7 "Reserpine" "D:/data/2026/cb/ga"
+       1001 7 "Reserpine" "D:/data/2026/cb/ga"
+       data hash MD5: 128
+       15 C6 68 9D E5 76 CB C5 C2 83 C2 C8 B3 EE 5F 5A>)
+(  14,<2026-04-29 14:44:01.394 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 7 "Reserpine" "D:/data/2026/cb/ga"
+       1001 7 "Reserpine" "D:/data/2026/cb/ga"
+       data hash MD5: 128
+       B3 1F 30 49 29 EC 43 19 D0 DE FC FF C2 9D E9 22>)
+(  15,<2026-04-29 14:44:01.441 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <apk 
+       data hash MD5: 128
+       57 0D 82 31 16 C0 F7 5E FB 26 CA 98 3D F2 10 E4>)
+##END=
+
+$$ hash MD5
+$$ 85 48 3F AD 3E 7D 79 4D 02 C2 72 FA 42 CB 66 B8

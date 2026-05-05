@@ -1,0 +1,23 @@
+##TITLE= Audit trail, TopSpin 3.6.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ C:/Data/2026/cb/ga/Tadalafil/11/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-05 11:34:36.413 +0100>,<nmrsu>,<CZC3047DVN>,<go4>,<TopSpin 3.6.2>,
+      <created by zg
+	started at 2026-05-05 11:29:19.608 +0100,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       0E 3D 8A BD 5E 32 A1 01 9C 0B 6B BD 30 27 FC C8
+       data hash MD5: 2K * 256
+       7A EF 90 F3 BA 4F 04 AB 25 E0 4E 9C 59 60 1B 22>)
+(   2,<2026-05-05 11:34:36.834 +0100>,<nmrsu>,<CZC3047DVN>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       ICON-NMR User ID: simpleICON
+       data hash MD5: 2K * 256
+       7A EF 90 F3 BA 4F 04 AB 25 E0 4E 9C 59 60 1B 22>)
+##END=
+
+$$ hash MD5
+$$ 6B 80 0A 07 FA 68 7C F1 17 6E 0A EF FF DC 41 44

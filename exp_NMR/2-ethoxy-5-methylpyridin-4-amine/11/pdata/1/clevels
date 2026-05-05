@@ -1,0 +1,27 @@
+##TITLE= Parameter file, TopSpin 4.1.3
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ 2026-02-16 21:10:32.142 -0000  nmrsu@CZC1087C56
+$$ D:\data\2026\cb\ga/2-ethoxy-5-methylpyridin-4-amine/11/pdata/1/clevels
+$$ process C:\Bruker\TopSpin4.1.3\prog\mod\proc2d.exe
+##$LEVELS= (0..255)
+467703040 -467703040 1338860795.21 -1338860795.21 3832663197.9 -3832663197.9
+10971496992.87 -10971496992.87 31407337417.66 -31407337417.66 89907589120
+-89907589120 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+##$LEVSIGN= 3
+##$MAXLEV= 6
+##$METHOD= 0
+##$NEGBASE= -467703040
+##$NEGINCR= 1.8
+##$POSBASE= 467703040
+##$POSINCR= 1.8
+##END=

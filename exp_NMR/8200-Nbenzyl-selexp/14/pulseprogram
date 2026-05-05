@@ -1,0 +1,184 @@
+; Selective 1D CLIP-COSY experiment using GEMSTONE for ultra-selective excitation.
+;
+; For Bruker Avance II+ spectrometers using TopSpin 3. Automatic generation of waveforms using WaveMaker.
+;
+; Daniel Taylor
+; Manchester NMR Methodology Group
+; Department of Chemistry
+; University of Manchester
+;
+; 27/05/2020
+
+;$CLASS=HighRes
+;$DIM=1D
+;$TYPE=
+;$SUBTYPE=
+;$COMMENT=
+
+#include <Avance.incl>
+#include <Grad.incl>
+#include <Delay.incl>
+
+;WaveMaker definitions
+;cnst50: band-width of the band-selective RSNOB pulse [Hz]
+;cnst51: sweep-width of the adiabatic pulse [Hz]
+;cnst52: duration of the adiabatic pulse [t1max/2: 30-100 ms]
+
+;sp2(p12):wvm:dat_CSSF_a:f1 userA1(cnst50 Hz) ss=10.0us;
+;sp41:wvm:dat_CSSF_bb1:f1 wurst-80(cnst51 Hz, cnst52 ms; L2H, Q=11) ss=20.0u;
+;sp42:wvm:dat_CSSF_bb2:f1 wurst-80(cnst51 Hz, cnst52 ms; H2L, Q=11) ss=20.0u;
+
+; ZQS elements
+;cnst53: bandwidth of first ZQS pulse [kHz]
+;cnst54: duration of first ZSQS pulse [ms]
+;cnst55: bandwidth of second ZQS pulse [kHz]
+;cnst56: duration of second ZQS pulse [ms]
+
+;sp29(p32):wvm:dat_ZQS1:f1 wurst-80(cnst53 kHz, cnst54 ms; NPOINTS=10000, L2H, Q=11) ss=5.0us;
+;sp30(p33):wvm:dat_ZQS2:f1 wurst-80(cnst55 kHz, cnst56 ms; NPOINTS=10000, L2H, Q=11) ss=5.0us;
+
+"d11=30m"
+"d11=30m+1s/(1+cnst50)"
+"d11=30m+1s/(1+cnst51)"
+"d11=30m+1s/(1+cnst52)"
+"d11=30m"
+
+"p2=p1*2"
+
+"acqt0=0.0"
+
+baseopt_echo
+
+1 ze
+2 30m
+
+  50u BLKGRAMP	
+  50u LOCKH_OFF 
+  d1 pl1:f1
+  50u LOCKH_ON 
+  50u UNBLKGRAMP
+
+  /* Hard 90deg pulse */
+  (p1 ph1):f1
+
+  /* Low to high adiabatic sweep */
+  d16
+  ( center (p41:sp41 ph2):f1 (p41:gp11) )
+  d16
+
+  /* Selective 180 */
+  p16:gp1
+  d16
+  p12:sp2:f1 ph3:r
+  p16:gp1
+  d16 pl1:f1
+
+  /* High to low adiabatic sweep */
+  d16
+  ( center (p42:sp42 ph4):f1 (p42:gp12) )	
+  d16 pl1:f1
+
+  /* CLIP COSY */
+  (p1 ph5):f1
+	
+  10u gron20
+  (p32:sp29 ph6):f1
+  20u groff
+  d16 pl1:f1
+
+  (p1 ph7):f1
+  d4
+  (p2 ph8):f1
+  d4
+  (p1 ph9):f1
+  d4
+  (p2 ph10):f1
+  d4
+  (p1 ph11):f1
+
+  10u gron21
+  (p33:sp30 ph12):f1
+  20u groff
+  d16 pl1:f1
+
+  p16:gp2
+  d16
+  (p1 ph13):f1
+
+  /* Acquisition */
+  go=2 ph31
+  30m mc #0 to 2 F0(zd)
+
+  50u BLKGRAD
+
+exit
+
+ ph1 = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ ph2 = 0
+ ph3 = 0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3
+ ph4 = 0
+ ph5 = 0 0 2 2
+ ph6 = 0
+ ph7 = 0
+ ph8 = 1
+ ph9 = 1
+ ph10 = 3
+ ph11 = 0
+ ph12 = 0
+ ph13 = 0 2
+ ph31 = 0 2 2 0 2 0 0 2 0 2 2 0 2 0 0 2 2 0 0 2 0 2 2 0 2 0 0 2 0 2 2 0
+
+;pl1 : f1 channel - power level for pulse (default)
+;sp2: f1 channel - shaped pulse, rSNOB
+;sp29: f1 channel - shaped pulse (adiabatic), zero-quantum suppression
+;sp30: f1 channel - shaped pulse (adiabatic), zero-quantum suppression
+;sp41: f1 channel - shaped pulse (adiabatic), GEMSTONE L2H sweep
+;sp42: f1 channel - shaped pulse (adiabatic), GEMSTONE H2L sweep
+
+;p1 : f1 channel -  90 degree high power pulse
+;p2 : f1 channel - 180 degree high power pulse
+;p12: f1 channel - 180 degree shaped pulse
+;p16: homospoil/gradient pulse									[1 msec]
+;p32: f1 channel adiabatic pulse, zero-quantum suppression	[10 msec]
+;p33: f1 channel adiabatic pulse, zero-quantum suppression	[30 msec]
+;p41: f1 channel adiabatic pulse, GEMSTONE L2H sweep
+;p42: f1 channel adiabatic pulse, GEMSTONE H2L sweep
+
+;d1 : relaxation delay; 1-5 * T1
+;d4 : COSY mixing time; 1/(4*J(HH))
+;d16: delay for homospoil/gradient recovery
+
+;d1 : relaxation delay; 1-5 * T1
+
+;ns: 2 * n, total number of scans: NS * TD0
+;ds: 4
+
+;USERA1: Name of selective 180 pulse [rsnob]
+
+;phcor 2 : phasedifference between power levels sp1 and pl1
+
+;for z-only gradients:
+;gpz1: 15 %
+;gpz2: -2 %
+;gpz11: +0.5 %
+;gpz12: -0.5 %
+
+;use gradient files:   
+;gpnam1: SMSQ10.100
+;gpnam2: SMSQ10.100
+;gpnam11: RECT.1
+;gpnam12: RECT.1
+
+; For sweepwidth of adiabatic shape and adjusting gpz0
+; see supplementary material of M.J. Thrippleton & J. Keeler,
+; Angew. Chem. Int. Ed. 42, 3938-3941 (2003)
+; use pulseprogram zs_setup
+
+                                          ;preprocessor-flags-start
+;CALC_SPOFFS: automatically calcuate spoffs for selective pulses
+;             start experiment with option -DCALC_SPOFFS (eda: ZGOPTNS)
+;FLAG_BLK: for BLKGRAD before d1 rather than go
+;             option -DFLAG_BLK: (eda: ZGOPTNS)
+                                          ;preprocessor-flags-end
+
+;$Id: dat_GEMSTONE_CLIPCOSY,v3, 2020/05/27 00:00:00 ber Exp $

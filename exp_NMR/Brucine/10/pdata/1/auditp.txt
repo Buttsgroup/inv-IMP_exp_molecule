@@ -1,0 +1,39 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:/data/2026/cb/ga/Brucine/10/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-04-20 09:39:44.112 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+$$ D:/data/2026/cb/ga/Brucine/10/audita.txt
+(   2,<2026-04-20 09:40:16.429 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <created by zg on 'Avance' (CZC1087C56) by user 'CZC1087C56\nmrsu'
+       on data set with UUID 'dcb46524-3c9c-11f1-8d11-0030d62936cd'
+       started at 2026-04-20 09:39:44.138 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-04-20 09:40:16.427 +0000
+       configuration hash MD5:
+       7F E6 30 42 0C AE 00 D8 7F CA 1A 40 93 25 33 26
+       double data hash MD5: 64K
+       CE CE 36 C4 8D D2 B8 12 8B AE 05 30 AB CC 80 1E>)
+(   3,<2026-04-20 10:42:16.902 +0100>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       em LB = 0.3 SI = 64K 
+       data hash MD5: 64K
+       5F 29 DC B1 ED B8 81 E7 CF 7F ED E4 09 E1 6E 19>)
+(   4,<2026-04-20 10:42:16.975 +0100>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <ft FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       89 EC 81 8E A3 22 08 E2 12 56 54 5B 8E DB AC 69>)
+(   5,<2026-04-20 10:42:17.220 +0100>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <apk 
+       data hash MD5: 64K
+       05 15 47 41 5C 4D 6E F2 1A 87 00 2E EE 4A D4 4E>)
+(   6,<2026-04-20 10:42:17.267 +0100>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       52 7C E0 0A 76 0F AA 52 E7 DB 69 91 75 1D 87 BF>)
+##END=
+
+$$ hash MD5
+$$ C8 82 BB 0D 4C BE 33 D7 51 E8 E3 0F 06 72 63 B0

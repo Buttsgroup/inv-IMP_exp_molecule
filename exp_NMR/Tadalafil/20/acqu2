@@ -1,0 +1,28 @@
+##TITLE= Parameter file, TopSpin 4.1.3
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 3	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ 2026-05-05 11:33:34.806 +0100  nmrsu@CZC1087C56
+$$ C:/Bruker/TopSpin4.1.3/prog/curdir/changer/inmrchanger/Jan08-2026-1326-600user/24/24.254/data/nmr/Tadalafil/20/acqu2
+$$ process C:\Bruker\TopSpin4.1.3\prog\mod\dataserver.exe
+##$ACQT0= 0
+##$BF1= 60.802538456
+##$DE= 12.84769
+##$DECIM= 1
+##$DR= 32
+##$FW= 2.4e+08
+##$FnILOOP= 0
+##$FnMODE= 6
+##$NUC1= <15N>
+##$NusJSP= 0
+##$NusT2= 1
+##$NusTD= 0
+##$O1= 12160.5076912
+##$ProjAngle= 0
+##$SFO1= 60.8146989636912
+##$SW= 399.960007999416
+##$SW_h= 24323.447484
+##$TD= 128
+##END=

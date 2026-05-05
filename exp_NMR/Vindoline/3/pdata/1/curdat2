@@ -1,0 +1,14 @@
+##TITLE= Parameter file, TopSpin 4.1.3
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ 2026-04-24 13:11:55.231 +0100  nmrsu@CZC1087C56
+$$ D:/data/2026/cb/ga/Vindoline/24/pdata/1/curdat2
+$$ process C:\Bruker\TopSpin4.1.3\prog\au\bin\proc_2dinv.exe
+##$DATPATH2= <D:/data/2026/cb/ga>
+##$EXPNO2= 24
+##$NAME2= <Vindoline>
+##$PROCNO2= 98
+##END=

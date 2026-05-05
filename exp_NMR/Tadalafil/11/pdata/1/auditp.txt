@@ -1,0 +1,47 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:/data/2026/cb/ga/Tadalafil/11/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-04-30 16:35:15.142 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+$$ D:/data/2026/cb/ga/Tadalafil/11/audita.txt
+(   2,<2026-04-30 16:35:28.674 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <created by zg on 'Avance' (CZC1087C56) by user 'CZC1087C56\nmrsu'
+       on data set with UUID '90e0474e-44b2-11f1-804d-0030d62936cd'
+       started at 2026-04-30 16:35:15.166 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-04-30 16:35:28.674 +0000
+       configuration hash MD5:
+       7F E6 30 42 0C AE 00 D8 7F CA 1A 40 93 25 33 26
+       double data hash MD5: 97822
+       BD A3 D6 E3 1C FB AC 97 2C D3 C2 4F C2 B9 1E 8F>)
+(   3,<2026-04-30 17:35:21.929 +0100>,<nmrsu>,<CZC1087C56>,<xwish3>,<TopSpin 4.1.3>,
+      <ICON-NMR User ID: 600 user
+       double data hash MD5: 97822
+       BD A3 D6 E3 1C FB AC 97 2C D3 C2 4F C2 B9 1E 8F>)
+(   4,<2026-04-30 17:35:24.398 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       ef LB = 1 FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       33 77 FA ED EE 98 43 7D 68 0B BC 6B 3C AF 4B 9A>)
+(   5,<2026-04-30 17:35:25.031 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <apk0 
+       data hash MD5: 64K
+       CF 18 96 39 5E A5 11 8D FD 83 CE 50 EB 29 47 5D>)
+(   6,<2026-04-30 17:35:25.081 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <abs ABSG = 5 
+       data hash MD5: 64K
+       68 2A 64 5C 75 1D 4B 00 BB F5 CD BA 8F 15 EF DC>)
+(   7,<2026-04-30 17:35:25.132 +0100>,<nmrsu/600 user>,<CZC1087C56>,<peak>,<TopSpin 4.1.3>,
+      <1D Peak picking
+       data hash MD5: 64K
+       68 2A 64 5C 75 1D 4B 00 BB F5 CD BA 8F 15 EF DC>)
+(   8,<2026-04-30 17:35:25.828 +0100>,<nmrsu/600 user>,<CZC1087C56>,<xwish3>,<TopSpin 4.1.3>,
+      <ICON-NMR User ID: 600 user
+       data hash MD5: 64K
+       68 2A 64 5C 75 1D 4B 00 BB F5 CD BA 8F 15 EF DC>)
+##END=
+
+$$ hash MD5
+$$ 09 AD C4 4B A5 B4 EE 79 8C D3 26 A1 48 60 69 43

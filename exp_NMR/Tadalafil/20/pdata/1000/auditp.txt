@@ -1,0 +1,43 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:/data/2026/cb/ga/Tadalafil/20/pdata/1000/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-05 11:56:47.319 +0100>,<nmrsu/600 user>,<CZC1087C56>,<mvrow>,<TopSpin 4.1.3>,
+      <rsr 13 from
+       1 20 "Tadalafil" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       90 E7 31 21 34 7A 35 E3 15 AB A6 EC D6 6A 7F A1>)
+(   2,<2026-05-05 11:56:47.429 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 20 "Tadalafil" "D:/data/2026/cb/ga"
+       1001 20 "Tadalafil" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       FA 56 53 3D 5E 39 33 9D 2E C7 C8 F8 B2 1F D2 0E>)
+(   3,<2026-05-05 11:56:47.507 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 20 "Tadalafil" "D:/data/2026/cb/ga"
+       1001 20 "Tadalafil" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       F8 84 93 27 68 FC 14 0F DE FC D2 C7 28 52 C6 90>)
+(   4,<2026-05-05 11:56:47.600 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 20 "Tadalafil" "D:/data/2026/cb/ga"
+       1001 20 "Tadalafil" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       30 F4 FD 51 AE 36 7A D2 C0 B4 B5 02 98 EE 34 49>)
+(   5,<2026-05-05 11:56:47.679 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 20 "Tadalafil" "D:/data/2026/cb/ga"
+       1001 20 "Tadalafil" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       FA 51 AE 0B 33 4E 40 55 9E 6F 3C 7C 6E 8E 5F FA>)
+(   6,<2026-05-05 11:56:47.741 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <apk 
+       data hash MD5: 2K
+       9F 66 56 EA CF BB 1D 28 C5 F4 4F A6 C4 2E 43 45>)
+##END=
+
+$$ hash MD5
+$$ C3 B3 4D 7A C9 B1 DF 0E 3F 53 1B 58 4D 5A 78 E9

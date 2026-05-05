@@ -1,0 +1,26 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= root
+$$ /root/.topspin-BladeEpu/local_acqu/Tadalafil/10/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-04-30 16:33:43.021 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+$$ D:/data/2026/cb/ga/Tadalafil/10/audita.txt
+(   2,<2026-04-30 16:34:04.793 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <created by zg on 'Avance' (CZC1087C56) by user 'CZC1087C56\nmrsu'
+       on data set with UUID '59f7cbb2-44b2-11f1-a181-0030d62936cd'
+       started at 2026-04-30 16:33:43.046 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-04-30 16:34:04.791 +0000
+       configuration hash MD5:
+       7F E6 30 42 0C AE 00 D8 7F CA 1A 40 93 25 33 26
+       double data hash MD5: 64K
+       85 88 C0 13 BD F9 61 11 28 EF A2 D2 36 C2 A5 AB>)
+(   3,<2026-04-30 17:33:58.059 +0100>,<nmrsu>,<CZC1087C56>,<xwish3>,<TopSpin 4.1.3>,
+      <ICON-NMR User ID: 600 user
+       double data hash MD5: 64K
+       85 88 C0 13 BD F9 61 11 28 EF A2 D2 36 C2 A5 AB>)
+##END=
+
+$$ hash MD5
+$$ F0 E4 FA 42 EC 00 6F DB 75 10 F9 BC 57 EA FD A7

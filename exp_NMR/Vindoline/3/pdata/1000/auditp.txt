@@ -1,0 +1,127 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:/data/2026/cb/ga/Vindoline/24/pdata/1000/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-04-24 13:11:45.494 +0100>,<nmrsu/600 user>,<CZC1087C56>,<mvrow>,<TopSpin 4.1.3>,
+      <rsr 564 from
+       1 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       F9 1A 2C 2C 98 A8 68 19 FB C7 9B 4E 38 2C 91 C7>)
+(   2,<2026-04-24 13:11:45.606 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       BA 79 A6 F7 54 B3 16 F4 44 7B 1D A6 CB 0B D2 D9>)
+(   3,<2026-04-24 13:11:45.700 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       7F C1 8A 82 16 67 E8 CE 46 39 DC 31 FC 91 53 4C>)
+(   4,<2026-04-24 13:11:45.793 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       02 C2 35 C9 ED 13 ED 9A 0B F4 48 CA 62 FE 1B B8>)
+(   5,<2026-04-24 13:11:45.887 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       7F 2D AE 97 60 52 59 8C CC 1D 01 8D D7 F7 0F 1A>)
+(   6,<2026-04-24 13:11:45.981 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       C6 29 6A 59 BB E7 5F 19 33 35 AF FB 25 04 EB 67>)
+(   7,<2026-04-24 13:11:46.075 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       F8 B8 6F 12 EC 46 61 C6 DB FC 57 1B BF B9 47 9A>)
+(   8,<2026-04-24 13:11:46.168 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       F6 EB 44 C4 DD BB 70 EF F0 9A A1 D6 69 A4 DC 68>)
+(   9,<2026-04-24 13:11:46.262 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       92 47 8A A1 B4 E7 BB B6 31 73 99 9F BF 5F D3 34>)
+(  10,<2026-04-24 13:11:46.340 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       C0 7B 29 F4 8C 26 D7 39 7B C4 82 A3 A5 FB CB FB>)
+(  11,<2026-04-24 13:11:46.436 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       6A 26 60 83 22 81 4B CE 33 62 59 90 99 CA ED 3C>)
+(  12,<2026-04-24 13:11:46.514 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       B8 7D BE 86 A0 C5 00 76 8A D4 86 69 48 63 74 F6>)
+(  13,<2026-04-24 13:11:46.623 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       CF 0A E9 E6 C1 7A 35 70 DC 52 CC 82 BD E5 B2 45>)
+(  14,<2026-04-24 13:11:46.701 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       71 84 C7 72 EA E9 BF 26 8A 96 91 6F BE 7B 76 56>)
+(  15,<2026-04-24 13:11:46.795 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       A8 5A 99 60 51 DF 86 65 01 63 67 63 E8 CE 22 A1>)
+(  16,<2026-04-24 13:11:46.889 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       66 9C 06 A6 61 9F E5 3D 33 F9 CC 06 CC AC 33 52>)
+(  17,<2026-04-24 13:11:46.967 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       99 E9 F7 46 71 60 E1 69 EE 5B 3A DC AA B4 52 84>)
+(  18,<2026-04-24 13:11:47.045 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       8B C8 2D 07 00 68 DB 5A 5B 20 3F 49 B2 8B C0 D3>)
+(  19,<2026-04-24 13:11:47.139 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 24 "Vindoline" "D:/data/2026/cb/ga"
+       1001 24 "Vindoline" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       C3 46 82 B2 E8 03 69 9B 62 E4 76 74 E2 23 D5 13>)
+(  20,<2026-04-24 13:11:47.201 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <apk 
+       data hash MD5: 2K
+       C3 83 7E A1 3E 5D 8F 19 F1 BD 81 E5 12 16 F4 0C>)
+##END=
+
+$$ hash MD5
+$$ 80 FC D4 34 CF E7 36 D5 D6 8B 5A 75 D6 12 CF E1

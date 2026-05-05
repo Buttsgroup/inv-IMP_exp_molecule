@@ -1,0 +1,48 @@
+## Wavemaker parameter file. 
+## PULPROG: GEMSTONE_CLIPCOSY_ts3x 
+
+dat_CSSF_a:f1 
+  rsnob(100 Hz)
+  ss=10.0us
+  nuc =  1H 
+  p90 =  12.000 us
+  pl =   10.786000 W
+  BF =  600.0500000 MHz
+  ofs =   3.943000 ppm 
+
+dat_CSSF_bb1:f1 
+  wurst-80(2500 Hz, 80 ms; L2H, Q=11)
+  ss=20.0u
+  nuc =  1H 
+  p90 =  12.000 us
+  pl =   10.786000 W
+  BF =  600.0500000 MHz
+  ofs =   3.943000 ppm 
+
+dat_CSSF_bb2:f1 
+  wurst-80(2500 Hz, 80 ms; H2L, Q=11)
+  ss=20.0u
+  nuc =  1H 
+  p90 =  12.000 us
+  pl =   10.786000 W
+  BF =  600.0500000 MHz
+  ofs =   3.943000 ppm 
+
+dat_ZQS1:f1 
+  wurst-80(1 kHz, 1 ms; NPOINTS=10000, L2H, Q=11)
+  ss=5.0us
+  nuc =  1H 
+  p90 =  12.000 us
+  pl =   10.786000 W
+  BF =  600.0500000 MHz
+  ofs =   3.943000 ppm 
+
+dat_ZQS2:f1 
+  wurst-80(1 kHz, 1 ms; NPOINTS=10000, L2H, Q=11)
+  ss=5.0us
+  nuc =  1H 
+  p90 =  12.000 us
+  pl =   10.786000 W
+  BF =  600.0500000 MHz
+  ofs =   3.943000 ppm 
+

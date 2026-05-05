@@ -1,0 +1,15 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:\data\2026\cb\ga/1,4-diaoxa-8-azaspira[4,5]decane/11/pdata/1001/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-02-16 18:14:50.244 -0000>,<nmrsu/600 user>,<CZC1087C56>,<mvrow>,<TopSpin 4.1.3>,
+      <rsr 960 from
+       1 11 "1,4-diaoxa-8-azaspira[4,5]decane" "D:\data\2026\cb\ga"
+       data hash MD5: 2K
+       DC 78 49 3A D6 B4 61 69 29 D8 23 B5 64 64 6E 3D>)
+##END=
+
+$$ hash MD5
+$$ 19 E7 7B 10 3D 59 83 EF C4 AB 58 6A 99 EA FA 0F

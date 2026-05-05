@@ -1,0 +1,17 @@
+##TITLE= Parameter file, TopSpin 4.1.3
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ 2026-04-30 17:57:23.552 +0100  nmrsu@CZC1087C56
+$$ D:/data/2026/cb/ga/Tadalafil/14/pdata/98/used_from
+$$ process C:\Bruker\TopSpin4.1.3\prog\mod\mvrow.exe
+##$CUREXP= <row>
+##$DATPATH= <D:/data/2026/cb/ga>
+##$DETAILS= <positive projection of all 2048 rows>
+##$EXPNO= 14
+##$NAME= <Tadalafil>
+##$PROCNO= 1
+##$PROCNO2= 1
+##END=

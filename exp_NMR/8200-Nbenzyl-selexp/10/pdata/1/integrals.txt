@@ -1,0 +1,6 @@
+   Current data set:
+   NAME =	8200-Nbenzyl-selexp	EXPNO =	10	PROCNO = 1
+   DU   =	D:/data/2026/cb/ga
+
+   Number   Integrated Region     Integral
+     1      3.970      3.920         1.00000

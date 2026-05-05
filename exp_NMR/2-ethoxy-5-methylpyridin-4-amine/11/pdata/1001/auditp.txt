@@ -1,0 +1,15 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:\data\2026\cb\ga/2-ethoxy-5-methylpyridin-4-amine/11/pdata/1001/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-02-16 21:10:28.623 -0000>,<nmrsu/600 user>,<CZC1087C56>,<mvrow>,<TopSpin 4.1.3>,
+      <rsr 987 from
+       1 11 "2-ethoxy-5-methylpyridin-4-amine" "D:\data\2026\cb\ga"
+       data hash MD5: 2K
+       E5 B5 B3 7E BD F7 0B 65 9A 93 7B D5 FA C2 B4 DE>)
+##END=
+
+$$ hash MD5
+$$ 49 8E 07 CE FF DF CC 64 3A 50 03 E5 1A 7B 16 3B

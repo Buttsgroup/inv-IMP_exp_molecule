@@ -1,0 +1,336 @@
+# 1 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+; Selective 1D CLIP-COSY experiment using GEMSTONE for ultra-selective excitation.
+;
+; For Bruker Avance II+ spectrometers using TopSpin 3. Automatic generation of waveforms using WaveMaker.
+;
+; Daniel Taylor
+; Manchester NMR Methodology Group
+; Department of Chemistry
+; University of Manchester
+;
+; 27/05/2020
+
+;$CLASS=HighRes
+;$DIM=1D
+;$TYPE=
+;$SUBTYPE=
+;$COMMENT=
+
+# 1 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl" 1
+;Avance4.incl
+;   for AV 4
+;
+;avance-version (16/08/18)
+;
+;$CLASS=Common Incl
+;$COMMENT=
+
+
+# 19 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl"
+;setrtp0 denotes TimingController
+
+
+# 50 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl"
+# 51 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl"
+
+
+# 63 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl"
+# 89 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl"
+# 90 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl"
+
+
+# 123 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl"
+;#define LOWQ
+;#define HIGHQ
+
+
+;#define MIX_UP
+;#define MIX_DOWN
+# 136 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Avance.incl"
+;$Id:$
+# 19 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x" 2
+
+# 1 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Grad.incl" 1
+;Grad4.incl  -  include file for Gradient Spectroscopy
+;   for AV 4
+;
+;avance-version (16/05/23)
+;
+;$CLASS=Common Incl
+;$COMMENT=
+
+# 26 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Grad.incl"
+define list<gradient> EA=<EA>
+
+
+# 30 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Grad.incl"
+;$Id:$
+# 20 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x" 2
+
+# 1 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Delay.incl" 1
+;Delay.incl  -  include file for commonly used delays
+;
+;version (13/08/07)
+;
+;$CLASS=Common Incl
+;$COMMENT=
+
+# 9 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Delay.incl"
+;general delays
+
+define delay DELTA
+define delay DELTA1
+define delay DELTA2
+define delay DELTA3
+define delay DELTA4
+define delay DELTA5
+define delay DELTA6
+define delay DELTA7
+define delay DELTA8
+define delay DELTA9
+define delay DELTA10
+define delay DELTA11
+define delay DELTA12
+define delay DELTA13
+define delay DELTA14
+define delay DELTA15
+define delay DELTA16
+
+define delay TAU
+define delay TAU1
+define delay TAU2
+define delay TAU3
+define delay TAU4
+define delay TAU5
+define delay TAU6
+define delay TAU7
+define delay TAU8
+define delay TAU9
+# 40 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Delay.incl"
+define delay INCR1
+define delay INCR2
+define delay INCR3
+define delay INCR4
+define delay INCR5
+define delay INCR6
+
+
+;delays for centering pulses
+# 50 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Delay.incl"
+define delay CEN_HN1
+define delay CEN_HN2
+define delay CEN_HN3
+define delay CEN_HC1
+define delay CEN_HC2
+define delay CEN_HC3
+define delay CEN_HC4
+define delay CEN_HP1
+define delay CEN_HP2
+define delay CEN_CN1
+define delay CEN_CN2
+define delay CEN_CN3
+define delay CEN_CN4
+define delay CEN_CP1
+define delay CEN_CP2
+
+
+;loop counters
+# 69 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Delay.incl"
+define loopcounter COUNTER
+define loopcounter SCALEF
+define loopcounter FACTOR1
+define loopcounter FACTOR2
+define loopcounter FACTOR3
+define loopcounter FACTOR4
+define loopcounter FACTOR5
+define loopcounter FACTOR6
+
+
+# 80 "/root/.topspin-BladeEpu/local_acqu/ppDirs/Delay.incl"
+;$Id:$
+# 21 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x" 2
+
+;WaveMaker definitions
+;cnst50: band-width of the band-selective RSNOB pulse [Hz]
+;cnst51: sweep-width of the adiabatic pulse [Hz]
+;cnst52: duration of the adiabatic pulse [t1max/2: 30-100 ms]
+
+;sp2(p12):wvm:dat_CSSF_a:f1 userA1(cnst50 Hz) ss=10.0us;
+;sp41:wvm:dat_CSSF_bb1:f1 wurst-80(cnst51 Hz, cnst52 ms; L2H, Q=11) ss=20.0u;
+;sp42:wvm:dat_CSSF_bb2:f1 wurst-80(cnst51 Hz, cnst52 ms; H2L, Q=11) ss=20.0u;
+# 31 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+; ZQS elements
+;cnst53: bandwidth of first ZQS pulse [kHz]
+;cnst54: duration of first ZSQS pulse [ms]
+;cnst55: bandwidth of second ZQS pulse [kHz]
+;cnst56: duration of second ZQS pulse [ms]
+
+;sp29(p32):wvm:dat_ZQS1:f1 wurst-80(cnst53 kHz, cnst54 ms; NPOINTS=10000, L2H, Q=11) ss=5.0us;
+;sp30(p33):wvm:dat_ZQS2:f1 wurst-80(cnst55 kHz, cnst56 ms; NPOINTS=10000, L2H, Q=11) ss=5.0us;
+
+"d11=30m"
+"d11=30m+1s/(1+cnst50)"
+"d11=30m+1s/(1+cnst51)"
+"d11=30m+1s/(1+cnst52)"
+"d11=30m"
+# 46 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+"p2=p1*2"
+
+"acqt0=0.0"
+
+baseopt_echo
+# 1 "mc_line 52 file /root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x exp. def. part of mc cmd. before ze"
+; dimension 1D; AQ_mode 
+define delay MCWRK
+define delay MCREST
+"MCREST = 30m - 30m"
+"MCWRK = 0.333333*30m"
+# 52 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+# 52 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+1 ze
+# 1 "mc_line 52 file /root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x exp. def. of mc cmd. after ze"
+# 53 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+# 1 "mc_line 53 file /root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x exp. start label for mc cmd."
+2 MCWRK  * 2
+LBLF0, MCWRK
+  MCREST
+# 54 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+
+  50u ctrlgrad 4047	
+  50u setrtp0^0 
+  d1 pl1:f1
+  50u setrtp0|0 
+  50u ctrlgrad 0
+
+  
+  (p1 ph1):f1
+# 64 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+  
+  d16
+  ( center (p41:sp41 ph2):f1 (p41:gp11) )
+  d16
+
+  
+  p16:gp1
+  d16
+  p12:sp2:f1 ph3:r
+  p16:gp1
+  d16 pl1:f1
+
+  
+  d16
+  ( center (p42:sp42 ph4):f1 (p42:gp12) )	
+  d16 pl1:f1
+# 81 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+  
+  (p1 ph5):f1
+	
+  10u gron20
+  (p32:sp29 ph6):f1
+  20u groff
+  d16 pl1:f1
+
+  (p1 ph7):f1
+  d4
+  (p2 ph8):f1
+  d4
+  (p1 ph9):f1
+  d4
+  (p2 ph10):f1
+  d4
+  (p1 ph11):f1
+
+  10u gron21
+  (p33:sp30 ph12):f1
+  20u groff
+  d16 pl1:f1
+# 104 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+  p16:gp2
+  d16
+  (p1 ph13):f1
+
+  
+  go=2 ph31
+# 1 "mc_line 110 file /root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x exp. mc cmd. in line"
+  MCWRK wr #0
+  MCWRK zd
+  lo to LBLF0 times td0
+
+# 111 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+
+  50u setrtp0^0 ctrlgrad 4047
+# 114 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+exit
+
+ ph1 = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ ph2 = 0
+ ph3 = 0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3
+ ph4 = 0
+ ph5 = 0 0 2 2
+ ph6 = 0
+ ph7 = 0
+ ph8 = 1
+ ph9 = 1
+ ph10 = 3
+ ph11 = 0
+ ph12 = 0
+ ph13 = 0 2
+ ph31 = 0 2 2 0 2 0 0 2 0 2 2 0 2 0 0 2 2 0 0 2 0 2 2 0 2 0 0 2 0 2 2 0
+
+;pl1 : f1 channel - power level for pulse (default)
+;sp2: f1 channel - shaped pulse, rSNOB
+;sp29: f1 channel - shaped pulse (adiabatic), zero-quantum suppression
+;sp30: f1 channel - shaped pulse (adiabatic), zero-quantum suppression
+;sp41: f1 channel - shaped pulse (adiabatic), GEMSTONE L2H sweep
+;sp42: f1 channel - shaped pulse (adiabatic), GEMSTONE H2L sweep
+# 138 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+;p1 : f1 channel -  90 degree high power pulse
+;p2 : f1 channel - 180 degree high power pulse
+;p12: f1 channel - 180 degree shaped pulse
+;p16: homospoil/gradient pulse									[1 msec]
+;p32: f1 channel adiabatic pulse, zero-quantum suppression	[10 msec]
+;p33: f1 channel adiabatic pulse, zero-quantum suppression	[30 msec]
+;p41: f1 channel adiabatic pulse, GEMSTONE L2H sweep
+;p42: f1 channel adiabatic pulse, GEMSTONE H2L sweep
+
+;d1 : relaxation delay; 1-5 * T1
+;d4 : COSY mixing time; 1/(4*J(HH))
+;d16: delay for homospoil/gradient recovery
+
+;d1 : relaxation delay; 1-5 * T1
+# 153 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+;ns: 2 * n, total number of scans: NS * TD0
+;ds: 4
+
+;USERA1: Name of selective 180 pulse [rsnob]
+
+;phcor 2 : phasedifference between power levels sp1 and pl1
+# 160 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+;for z-only gradients:
+;gpz1: 15 %
+;gpz2: -2 %
+;gpz11: +0.5 %
+;gpz12: -0.5 %
+
+;use gradient files:   
+;gpnam1: SMSQ10.100
+;gpnam2: SMSQ10.100
+;gpnam11: RECT.1
+;gpnam12: RECT.1
+
+; For sweepwidth of adiabatic shape and adjusting gpz0
+; see supplementary material of M.J. Thrippleton & J. Keeler,
+; Angew. Chem. Int. Ed. 42, 3938-3941 (2003)
+; use pulseprogram zs_setup
+# 177 "/root/.topspin-BladeEpu/local_acqu/ppDirs/GEMSTONE_CLIPCOSY_ts3x"
+                                          ;preprocessor-flags-start
+;CALC_SPOFFS: automatically calcuate spoffs for selective pulses
+;             start experiment with option -DCALC_SPOFFS (eda: ZGOPTNS)
+;FLAG_BLK: for setrtp0^0 ctrlgrad 4047 before d1 rather than go
+;             option -DFLAG_BLK: (eda: ZGOPTNS)
+                                          ;preprocessor-flags-end
+
+;$Id: dat_GEMSTONE_CLIPCOSY,v3, 2020/05/27 00:00:00 ber Exp $
