@@ -1,0 +1,39 @@
+
+Current Data Parameters
+NAME      86-53-3 (167)              
+EXPNO                 1              
+PROCNO                1              
+
+F2 - Acquisition Parameters
+Date_          20260414              
+Time               4.54 h            
+INSTRUM           spect              
+PROBHD   Z8558_0026 (PH              
+PULPROG            zg30              
+TD                65536              
+SOLVENT           CDCl3              
+NS                    2              
+DS                    2              
+SWH           12019.230 Hz           
+FIDRES         0.366798 Hz           
+AQ            2.7262976 sec          
+RG               107.51              
+DW               41.600 usec         
+DE                12.47 usec         
+TE                298.2 K            
+D1           2.00000000 sec          
+TD0                   1              
+SFO1        600.4039026 MHz          
+NUC1                 1H              
+P0                 2.67 usec         
+P1                 8.00 usec         
+PLW1        14.50000000 W            
+
+F2 - Processing parameters
+SI                65536              
+SF          600.4000000 MHz          
+WDW                  EM              
+SSB                   0              
+LB                 0.30 Hz           
+GB                    0              
+PC                 1.00              

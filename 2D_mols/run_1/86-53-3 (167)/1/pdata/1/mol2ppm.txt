@@ -1,0 +1,4 @@
+# 2026-04-14 17:09:33 +0100 NMR Superuser@CZC4030R51
+# TOPSPIN Molecule to PPM ranges correlations
+# C:/Data/2026/va/rc/exp_dataset/run_1/nmrsu/86-53-3 (167)/1/pdata/1
+# Start [PPM]     End [PPM]     Atom Numbers

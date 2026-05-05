@@ -1,0 +1,23 @@
+##TITLE= Parameter file, TopSpin 3.6.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 2	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= NMR Superuser
+$$ 2026-04-14 17:44:53.403 +0100  NMR Superuser@CZC4030R51
+$$ C:/Data/2026/va/rc/exp_dataset/run_1/nmrsu/16029-98-4 (221)/3/pdata/1/curdat2
+$$ process C:\Bruker\TopSpin3.6.2\prog\mod\dataserver.exe
+##$DATPATH2= <C:/Data/2026/va/rc/exp_dataset/run_1/nmrsu>
+##$DATPATH3= <C:/Data/2026/va/rc/exp_dataset/run_1/nmrsu>
+##$DU2= <>
+##$DU3= <>
+##$EXPNO2= 1
+##$EXPNO3= 2
+##$NAME2= <16029-98-4 (221)>
+##$NAME3= <16029-98-4 (221)>
+##$PROCNO2= 1
+##$PROCNO3= 1
+##$TYPE= <>
+##$USER2= <>
+##$USER3= <>
+##END=
