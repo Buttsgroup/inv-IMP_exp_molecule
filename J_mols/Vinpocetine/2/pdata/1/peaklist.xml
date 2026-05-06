@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList>
+  <PeakList1D>
+    <PeakList1DHeader creator="nmrsu" date="2026-05-05T15:22:45.869+01:00" expNo="2" name="Vinpocetine" owner="" procNo="1" source="D:/data/2026/cb/ga">
+      <PeakPickDetails>F1=254.708603ppm, F2=-14.708690ppm, MI=0.00cm, MAXI=10000.00cm, PC=1.400
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="163.524521" intensity="3.987753e+00" type="0"/>
+    <Peak1D F1="134.053360" intensity="3.540246e+00" type="0"/>
+    <Peak1D F1="131.090042" intensity="3.512182e+00" type="0"/>
+    <Peak1D F1="129.096054" intensity="3.754688e+00" type="0"/>
+    <Peak1D F1="128.482956" intensity="3.944316e+00" type="0"/>
+    <Peak1D F1="128.021423" intensity="6.100153e+00" type="0"/>
+    <Peak1D F1="121.798134" intensity="6.326173e+00" type="0"/>
+    <Peak1D F1="120.204109" intensity="6.582241e+00" type="0"/>
+    <Peak1D F1="118.231033" intensity="6.316378e+00" type="0"/>
+    <Peak1D F1="112.590103" intensity="6.860319e+00" type="0"/>
+    <Peak1D F1="108.670174" intensity="4.318023e+00" type="0"/>
+    <Peak1D F1="77.371803" intensity="1.473720e+01" type="0"/>
+    <Peak1D F1="77.159996" intensity="1.500000e+01" type="0"/>
+    <Peak1D F1="76.947784" intensity="1.465433e+01" type="0"/>
+    <Peak1D F1="61.789742" intensity="8.009292e+00" type="0"/>
+    <Peak1D F1="55.712154" intensity="7.430431e+00" type="0"/>
+    <Peak1D F1="51.505688" intensity="6.880384e+00" type="0"/>
+    <Peak1D F1="44.945236" intensity="6.748204e+00" type="0"/>
+    <Peak1D F1="37.703213" intensity="7.614626e+00" type="0"/>
+    <Peak1D F1="28.725615" intensity="6.466137e+00" type="0"/>
+    <Peak1D F1="27.328506" intensity="6.596755e+00" type="0"/>
+    <Peak1D F1="20.398563" intensity="6.456178e+00" type="0"/>
+    <Peak1D F1="16.403042" intensity="7.072902e+00" type="0"/>
+    <Peak1D F1="14.253979" intensity="7.471292e+00" type="0"/>
+    <Peak1D F1="8.811216" intensity="6.982576e+00" type="0"/>
+  </PeakList1D>
+</PeakList>
