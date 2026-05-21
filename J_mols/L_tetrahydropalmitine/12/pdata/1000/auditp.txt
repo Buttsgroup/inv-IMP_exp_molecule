@@ -1,0 +1,115 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:/data/2026/cb/ga/L_tetrahydropalmitine/12/pdata/1000/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-18 12:53:47.586 +0100>,<nmrsu/600 user>,<CZC1087C56>,<mvrow>,<TopSpin 4.1.3>,
+      <rsr 114 from
+       1 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       E2 69 C8 4E 27 72 22 D4 95 AD 96 4F 9D 86 F0 FE>)
+(   2,<2026-05-18 12:53:47.698 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       1001 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       FF 5F 21 AE 48 56 7C 5C 66 5F D0 D6 BD F1 62 7D>)
+(   3,<2026-05-18 12:53:47.800 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       1001 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       24 FE 43 8C D2 9B 0E E2 0B 06 1F B2 22 00 5F CE>)
+(   4,<2026-05-18 12:53:47.886 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       1001 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       31 2F BD E2 C7 06 36 B6 81 59 C2 12 F4 23 C6 10>)
+(   5,<2026-05-18 12:53:47.979 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       1001 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       0D 2B F3 B6 FA 70 D2 23 42 8E A2 9D D3 EA A4 A3>)
+(   6,<2026-05-18 12:53:48.073 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       1001 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       B0 01 BF D8 46 6B 69 8B 5B 3C 62 84 B7 F6 94 4C>)
+(   7,<2026-05-18 12:53:48.167 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       1001 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       37 F1 08 43 3E 49 8C 88 F5 4A 6E 29 01 26 1E FC>)
+(   8,<2026-05-18 12:53:48.265 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       1001 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       22 3F 96 B2 1B 16 51 7F BB 7B AE F7 9E 9D 7A DA>)
+(   9,<2026-05-18 12:53:48.359 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       1001 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       79 74 6B 65 5F 89 E9 6D 34 DD 98 1B 0A 85 B6 E3>)
+(  10,<2026-05-18 12:53:48.464 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       1001 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       D2 7E A9 03 1D 6B 7C 4F 98 A1 23 DE 0C 9B CA 36>)
+(  11,<2026-05-18 12:53:48.553 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       1001 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       83 63 AF 52 DE B5 6F 98 29 53 4A CE 72 3F 1F 84>)
+(  12,<2026-05-18 12:53:48.662 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       1001 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       A2 AF AC 3B B3 16 F1 BC CE 66 08 A0 69 B9 2D 7C>)
+(  13,<2026-05-18 12:53:48.754 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       1001 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       A7 41 51 5B 74 05 FE A6 80 39 97 7A 11 D7 B1 3A>)
+(  14,<2026-05-18 12:53:48.847 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       1001 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       24 1D 52 6D C3 A4 FB 7C D0 04 3D 58 F2 26 4A 57>)
+(  15,<2026-05-18 12:53:48.937 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       1001 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       FD A6 BF C2 36 16 D5 9E 93 C2 DD CF F4 88 2A 01>)
+(  16,<2026-05-18 12:53:49.036 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       1001 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       B3 A4 93 54 AE DC 41 BC 60 A1 C8 E3 84 86 4F DD>)
+(  17,<2026-05-18 12:53:49.137 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <add DC = 1 DATMOD = 1 of
+       1000 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       1001 12 "L_tetrahydropalmitine" "D:/data/2026/cb/ga"
+       data hash MD5: 2K
+       8B AB FF 38 6E A1 3C E2 9D 07 AC 47 AE DF 90 BA>)
+(  18,<2026-05-18 12:53:49.200 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <apk 
+       data hash MD5: 2K
+       38 32 46 B9 EA 43 64 31 E9 79 92 DB 81 86 58 A5>)
+##END=
+
+$$ hash MD5
+$$ B8 83 CD 59 38 32 FA FD 56 5D 29 61 10 BA 84 89

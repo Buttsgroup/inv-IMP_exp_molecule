@@ -1,0 +1,313 @@
+# 1 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/user/CLIP_15N_selhsqmbc"
+; CLIP-HSQMBC f2hard
+;
+; 2D proton-selective 1H-13C CLIP-HSQMBC experiment 
+;
+;  J. Saurí, T. Parella, J.F. Espinosa, Org. Biomol. Chem., 11 (2013) 4473-4478
+;  J. Saurí, M. Reibarkh, T. Zhang, R.D. Cohen, X. Wang, T.F. Molinski, G.E. Martin, R.T.
+;  Williamson, Org. Lett., 18 (2016) 4786-4789.
+;
+; 2D proton-selective 1H–15N CLIP-HSQMBC experiment, hard pulse on the 2nd channel
+; T-L Hwang, N. Yang, G. Cheng, Y. Chen, S. Cui, Magn. Reson. Chem., 2021
+; https://doi.org/10.1002/mrc.5204
+;
+
+# 1 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/Avance.incl" 1
+;Avance3.incl
+;   for AV III
+;
+;avance-version (13/06/17)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+
+# 169 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/Avance.incl"
+;$Id: Avance3.incl,v 1.10.2.2 2013/08/30 09:43:33 ber Exp $
+# 14 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/user/CLIP_15N_selhsqmbc" 2
+
+# 1 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/Grad.incl" 1
+;Grad2.incl  -  include file for Gradient Spectroscopy
+;   for TCU3
+;
+;avance-version (07/01/17)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+
+# 27 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/Grad.incl"
+define list<gradient> EA=<EA>
+
+
+# 31 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/Grad.incl"
+;$Id: Grad2.incl,v 1.14 2012/01/31 17:49:21 ber Exp $
+# 15 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/user/CLIP_15N_selhsqmbc" 2
+
+# 1 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/Delay.incl" 1
+;Delay.incl  -  include file for commonly used delays
+;
+;version (13/08/07)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+
+# 9 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/Delay.incl"
+;general delays
+
+define delay DELTA
+define delay DELTA1
+define delay DELTA2
+define delay DELTA3
+define delay DELTA4
+define delay DELTA5
+define delay DELTA6
+define delay DELTA7
+define delay DELTA8
+define delay DELTA9
+define delay DELTA10
+define delay DELTA11
+define delay DELTA12
+define delay DELTA13
+define delay DELTA14
+define delay DELTA15
+define delay DELTA16
+
+define delay TAU
+define delay TAU1
+define delay TAU2
+define delay TAU3
+define delay TAU4
+define delay TAU5
+define delay TAU6
+define delay TAU7
+define delay TAU8
+define delay TAU9
+# 40 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/Delay.incl"
+define delay INCR1
+define delay INCR2
+define delay INCR3
+define delay INCR4
+define delay INCR5
+define delay INCR6
+
+
+;delays for centering pulses
+# 50 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/Delay.incl"
+define delay CEN_HN1
+define delay CEN_HN2
+define delay CEN_HN3
+define delay CEN_HC1
+define delay CEN_HC2
+define delay CEN_HC3
+define delay CEN_HC4
+define delay CEN_HP1
+define delay CEN_HP2
+define delay CEN_CN1
+define delay CEN_CN2
+define delay CEN_CN3
+define delay CEN_CN4
+define delay CEN_CP1
+define delay CEN_CP2
+
+
+;loop counters
+# 69 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/Delay.incl"
+define loopcounter COUNTER
+define loopcounter SCALEF
+define loopcounter FACTOR1
+define loopcounter FACTOR2
+define loopcounter FACTOR3
+define loopcounter FACTOR4
+define loopcounter FACTOR5
+define loopcounter FACTOR6
+
+
+# 80 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/Delay.incl"
+;$Id: Delay.incl,v 1.14.2.1 2013/08/30 09:43:33 ber Exp $
+# 16 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/user/CLIP_15N_selhsqmbc" 2
+
+
+"p2=p1*2"
+"d4=1s/(cnst2*4)"
+"d11=30m"
+"d0=3u"
+"in0=inf1/2"
+"DELTA1=50u+p16+d16"
+"DELTA2=d4-larger(p12,p14)/2-50u-p16-d16"
+"DELTA3=d4-larger(p12,p14)/2-50u-p16-d16-p16-4u"
+"DELTA=p16+d16+50u+p2+d0*2"
+# 1 "mc_line 28 file /opt/topspin3.6.1/exp/stan/nmr/lists/pp/user/CLIP_15N_selhsqmbc exp. def. part of mc cmd. before ze"
+; dimension 2D; AQ_mode  (F1) Echo-Antiecho
+define delay MCWRK
+define delay MCREST
+define delay d0orig
+"d0orig=d0"
+define list<loopcounter> SPARSELIST = <$NUSLIST>
+define loopcounter t1loop
+"t1loop=0"
+define loopcounter ph1loop
+"ph1loop=0"
+define loopcounter STNCNT
+"STNCNT=SPARSELIST.len/1"
+"MCREST = d1 - d1"
+"MCWRK = 0.052632*d1"
+
+    dccorr
+# 28 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/user/CLIP_15N_selhsqmbc"
+# 28 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/user/CLIP_15N_selhsqmbc"
+1 ze
+# 1 "mc_line 28 file /opt/topspin3.6.1/exp/stan/nmr/lists/pp/user/CLIP_15N_selhsqmbc exp. def. of mc cmd. after ze"
+LBLAV, MCWRK
+  MCWRK
+  "t1loop = SPARSELIST"
+  MCWRK  SPARSELIST.inc
+  MCWRK
+  "ph1loop = 0"
+      "d0=d0orig + t1loop * in0 "
+      "phval3 = (t1loop * 180)%360"
+      MCWRK ip3 + phval3
+      "phval6 = (t1loop * 180)%360"
+      MCWRK ip6 + phval6
+      "phval31 = (t1loop * 180)%360"
+      MCWRK ip31 + phval31
+      MCWRK
+      "phval0 = ph1loop * 1"
+      MCWRK setgrad EA
+# 29 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/user/CLIP_15N_selhsqmbc"
+  d11
+# 1 "mc_line 30 file /opt/topspin3.6.1/exp/stan/nmr/lists/pp/user/CLIP_15N_selhsqmbc exp. start label for mc cmd."
+2 MCWRK  * 7
+LBLF1, MCWRK  * 11
+LBLSTN, MCWRK pl1:f1
+  MCREST
+# 31 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/user/CLIP_15N_selhsqmbc"
+3 (p1 ph1)
+  50u setnmr3|0 setnmr0|34|32|33 ctrlgrad 0
+  p16:gp3
+  d16
+  DELTA2 pl2:f2 pl0:f1
+  4u
+  (center (p12:sp2 ph1) (p14 ph6):f2 )
+  4u
+  DELTA2 pl2:f2 pl1:f1
+  50u
+  p16:gp3
+  d16
+  (center (p1 ph2):f1 (p3 ph3):f2 )
+  d0
+  (p2 ph5)
+  d0
+
+  50u
+  p16:gp1*EA
+  d16 pl2:f2
+
+  (p24 ph4):f2
+  DELTA pl2:f2
+  (p3 ph4):f2
+  50u
+  p16:gp4
+  d16
+  (p1 ph2):f1
+  50u
+  p16:gp5
+  d16
+  DELTA2 pl2:f2 pl0:f1
+  (center (p12:sp2 ph1) (p14 ph1):f2 )
+  DELTA3 pl2:f2 pl1:f1
+  50u
+  p16:gp5
+  4u
+  p16:gp2
+  d16 setnmr3^0 setnmr0^34^32^33 ctrlgrad 7
+  (p3 ph1):f2
+  go=2 ph31
+# 1 "mc_line 72 file /opt/topspin3.6.1/exp/stan/nmr/lists/pp/user/CLIP_15N_selhsqmbc exp. mc cmd. in line"
+  MCWRK  wr #0 if #0 zd 
+
+  MCWRK
+  "ph1loop+=1"
+      "d0=d0orig + t1loop * in0 "
+      "phval3 = (t1loop * 180)%360"
+      MCWRK ip3 + phval3
+      "phval6 = (t1loop * 180)%360"
+      MCWRK ip6 + phval6
+      "phval31 = (t1loop * 180)%360"
+      MCWRK ip31 + phval31
+      MCWRK
+      "phval0 = ph1loop * 1"
+      MCWRK setgrad EA
+  lo to LBLF1 times 2
+  MCWRK 
+  MCWRK
+  "ph1loop-=2"
+  MCWRK 
+
+  MCWRK
+  "t1loop = SPARSELIST"
+  MCWRK  SPARSELIST.inc
+  MCWRK
+  "ph1loop = 0"
+      "d0=d0orig + t1loop * in0 "
+      "phval3 = (t1loop * 180)%360"
+      MCWRK ip3 + phval3
+      "phval6 = (t1loop * 180)%360"
+      MCWRK ip6 + phval6
+      "phval31 = (t1loop * 180)%360"
+      MCWRK ip31 + phval31
+      MCWRK
+      "phval0 = ph1loop * 1"
+      MCWRK setgrad EA
+  lo to LBLSTN times STNCNT
+  MCWRK rf #0 SPARSELIST.res
+  lo to LBLAV times tdav
+# 74 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/user/CLIP_15N_selhsqmbc"
+  exit
+# 76 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/user/CLIP_15N_selhsqmbc"
+ph1=0
+ph2=1
+ph3=0 2
+ph4=0
+ph5=0
+ph6=0
+ph14=0
+ph31=0 2
+
+;pl0 : 0 W
+;pl1 : f1 channel - power level for pulse (default)
+;pl2 : f2 channel - power level for pulse (default)
+;sp2: f1 channel - shaped pulse 180 degree for selective refocussing
+;p1 : f1 channel - 90 degree high power pulse length
+;p2 : f1 channel - 180 degree high power pulse length
+;p3 : f2 channel - 90 degree high power pulse length
+;p12: f1 channel - 180 degree shaped pulse length for selective refocussing
+;p14: f2 channel - 180 degree pulse length for inversion
+;p16: homospoil/gradient pulse
+;p24: f2 channel - 180 degree pulse length for refocussing
+;d0 : incremented delay (2D) [3 usec]
+;d1 : relaxation delay; 1-5 * T1
+;d4 : 1/(4 nJXH)
+;d11: delay for disk I/O [30 msec]
+;d16: delay for homospoil/gradient recovery
+;cnst2: = nJ(XH)
+;inf1: 1/SW(X) = 2 * DW(X)
+;in0: 1/(2 * SW(X)) = DW(X)
+;nd0: 2
+;NS: 1 * n
+;DS: >= 16
+;td1: number of experiments
+;FnMODE: echo-antiecho
+
+;use gradient ratio:
+;gpz1: 80%
+;gpz2: 20.1% for C-13, 8.1% for N-15
+;gpz3: 33%
+;gpz4: 50%
+;gpz5: 17%
+# 117 "/opt/topspin3.6.1/exp/stan/nmr/lists/pp/user/CLIP_15N_selhsqmbc"
+;use gradient files:
+;gpnam1: SMSQ10.100
+;gpnam2: SMSQ10.100
+;gpnam3: SMSQ10.100
+;gpnam4: SMSQ10.100
+;gpnam5: SMSQ10.100
+

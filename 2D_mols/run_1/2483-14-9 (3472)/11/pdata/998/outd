@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TopSpin 4.1.3
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ 2026-05-12 15:53:45.413 +0100  nmrsu@CZC1087C56
+$$ D:/data/2026/va/rc/exp_dataset/run_1/2483-14-9 (3472)/13/pdata/998/outd
+$$ process C:\Bruker\TopSpin4.1.3\prog\mod\proc1d.exe
+##$CURPLOT= <>
+##$CURPRIN= <$>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1D_X.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=

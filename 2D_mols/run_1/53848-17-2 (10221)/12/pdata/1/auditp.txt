@@ -1,0 +1,62 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:/data/2026/va/rc/exp_dataset/run_1/53848-17-2 (10221)/12/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-12 14:07:06.608 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+(   2,<2026-05-12 15:07:54.684 +0100>,<nmrsu>,<CZC1087C56>,<proc2d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       xf2 td1 64 nodisp F2: SI = 4K WDW = 3 SSB = 0 FT_mod = 6 PKNL = 1 F1: SI = 1K
+       data hash MD5: 4K * 1K
+       2C 7A B8 5A 89 32 83 E9 8C 93 1E 95 11 AD D1 82>)
+(   3,<2026-05-12 15:07:55.174 +0100>,<nmrsu>,<CZC1087C56>,<proc2d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       xf2 nd2d nodisp F2: SI = 4K WDW = 3 SSB = 0 FT_mod = 6 PKNL = 1 F1: SI = 1K
+       data hash MD5: 4K * 1K
+       79 3D 2C 6A F5 57 A3 56 94 70 0C 5E 77 58 50 D2>)
+(   4,<2026-05-12 15:07:57.316 +0100>,<nmrsu>,<CZC1087C56>,<mddnmr>,<TopSpin 4.1.3>,
+      <mdd: parameter modification due to missing license
+       Mdd_mod = cs Mdd_CsALG = ist
+       data hash MD5: 4K * 1K
+       CC 1D F2 92 85 60 08 24 A4 1E 83 97 BB D7 14 27>)
+(   5,<2026-05-12 15:07:57.831 +0100>,<nmrsu>,<CZC1087C56>,<proc2d>,<TopSpin 4.1.3>,
+      <xf1 F1: SI = 1K ME_mod = 2 NCOEF = 32 WDW = 3 SSB = 0 FT_mod = 6 FCOR = 0.5 PH_mod = 2
+       data hash MD5: 4K * 1K
+       55 24 86 13 37 B8 A4 DA 68 88 D4 E2 3D BE 91 BC>)
+(   6,<2026-05-12 15:09:28.736 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc2d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       xf2 td1 64 nodisp F2: SI = 4K WDW = 3 SSB = 0 FT_mod = 6 PKNL = 1 F1: SI = 1K
+       data hash MD5: 4K * 1K
+       2C 7A B8 5A 89 32 83 E9 8C 93 1E 95 11 AD D1 82>)
+(   7,<2026-05-12 15:09:29.234 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc2d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       xf2 nd2d nodisp F2: SI = 4K WDW = 3 SSB = 0 FT_mod = 6 PKNL = 1 F1: SI = 1K
+       data hash MD5: 4K * 1K
+       6A B1 71 72 CE 6C B6 84 64 9A 8A A7 E2 6E 07 77>)
+(   8,<2026-05-12 15:09:31.533 +0100>,<nmrsu/600 user>,<CZC1087C56>,<mddnmr>,<TopSpin 4.1.3>,
+      <mdd: parameter modification due to missing license
+       Mdd_mod = cs Mdd_CsALG = ist
+       data hash MD5: 4K * 1K
+       F1 BE A1 D7 0D BD 78 B9 22 1E 4C C1 F9 2D 39 19>)
+(   9,<2026-05-12 15:09:32.065 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc2d>,<TopSpin 4.1.3>,
+      <xf1 F1: SI = 1K ME_mod = 2 NCOEF = 32 WDW = 3 SSB = 0 FT_mod = 6 FCOR = 0.5 PH_mod = 2
+       data hash MD5: 4K * 1K
+       57 F6 4F 15 65 5D 39 6A 8B 68 8C 30 E2 15 F3 59>)
+(  10,<2026-05-12 15:09:32.283 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc2d>,<TopSpin 4.1.3>,
+      <abs2 F2: ABSG = 5 ABSF1 = 12.50987 ABSF2 = -0.5098788
+       data hash MD5: 4K * 1K
+       F0 07 2D E3 78 FC E1 FB 56 FA 06 F3 54 34 C8 AF>)
+(  11,<2026-05-12 15:09:34.509 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc2d>,<TopSpin 4.1.3>,
+      <abs1 F1: ABSG = 5 ABSF1 = 250.05 ABSF2 = -0.04999695
+       data hash MD5: 4K * 1K
+       CD 7E 15 61 99 69 75 69 E9 59 DB 8A 68 8E 25 EB>)
+(  12,<2026-05-12 15:09:36.851 +0100>,<nmrsu/600 user>,<CZC1087C56>,<xwish3>,<TopSpin 4.1.3>,
+      <ICON-NMR User ID: 600 user
+       data hash MD5: 4K * 1K
+       CD 7E 15 61 99 69 75 69 E9 59 DB 8A 68 8E 25 EB>)
+##END=
+
+$$ hash MD5
+$$ 41 B4 4E 8B FF 68 5E 6F 23 98 F0 0F DF D6 00 44

@@ -1,0 +1,17 @@
+##TITLE= Audit trail, TopSpin 3.6.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= NMR Superuser
+$$ C:/Data/2026/va/rc/exp_dataset/run_4/nmrsu/(3)/2/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-08 12:23:41.050 +0100>,<NMR Superuser>,<CZC4030R51>,<go4>,<TopSpin 3.6.2>,
+      <acquisition in progress>)
+(   2,<2026-05-08 12:35:16.208 +0100>,<NMR Superuser>,<CZC4030R51>,<proc1d>,<TopSpin 3.6.2>,
+      <Start of raw data processing
+       efp LB = 1 FT_mod = 6 PKNL = 1 PHC0 = -54.16008 PHC1 = 40.9079 SI = 64K 
+       data hash MD5: 64K
+       31 D4 5F BE D1 2C 46 E6 BE DE 74 1C DC C5 69 45>)
+##END=
+
+$$ hash MD5
+$$ E8 A2 48 D9 EF 98 DC 3D 43 BC DC 13 5D DD 4A 5C

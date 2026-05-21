@@ -1,0 +1,26 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= root
+$$ /root/.topspin-BladeEpu/local_acqu/L_tetrahydropalmitine/14/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-18 12:00:11.837 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+$$ D:/data/2026/cb/ga/L_tetrahydropalmitine/14/audita.txt
+(   2,<2026-05-18 12:02:52.095 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <created by zg on 'Avance' (CZC1087C56) by user 'CZC1087C56\nmrsu'
+       on data set with UUID '1f7c4938-52b1-11f1-8e2f-0030d62936cd'
+       started at 2026-05-18 12:00:11.865 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-18 12:02:52.095 +0000
+       configuration hash MD5:
+       7F E6 30 42 0C AE 00 D8 7F CA 1A 40 93 25 33 26
+       double data hash MD5: 2K * 128
+       1A E6 6B B9 62 8C 31 3E D3 C4 F9 8E F6 05 9F 81>)
+(   3,<2026-05-18 13:01:38.191 +0100>,<nmrsu>,<CZC1087C56>,<xwish3>,<TopSpin 4.1.3>,
+      <ICON-NMR User ID: 600 user
+       double data hash MD5: 2K * 128
+       1A E6 6B B9 62 8C 31 3E D3 C4 F9 8E F6 05 9F 81>)
+##END=
+
+$$ hash MD5
+$$ AC 50 A5 4C 11 3A BF 0E 08 69 A0 A2 6D 67 A3 F4

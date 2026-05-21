@@ -1,16 +1,16 @@
 ##TITLE= Parameter file, TopSpin 3.6.2
 ##JCAMPDX= 5.0
 ##DATATYPE= Parameter Values
-##NPOINTS= 1	$$ modification sequence number
+##NPOINTS= 5	$$ modification sequence number
 ##ORIGIN= Bruker BioSpin GmbH
 ##OWNER= NMR Superuser
-$$ 2026-04-14 06:29:05.236 +0100  NMR Superuser@CZC4030R51
-$$ C:/Data/2026/va/rc/exp_dataset/run_1/nmrsu/1287752-87-7 (6572)/4/pdata/1/proc2s
-$$ process C:\Bruker\TopSpin3.6.2\prog\mod\xwish3.exe
-##$ABSF1= 1000
-##$ABSF2= -1000
-##$ABSG= 5
-##$ABSL= 3
+$$ 2026-05-18 10:56:49.239 +0100  mx23826@M6H6J91GCT
+$$ /Users/mx23826/Documents/inv-IMP_exp_molecule/2D_mols/run_1/1287752-87-7 (6572)/4/pdata/1/proc2s
+$$ process /opt/topspin3.6.2/prog/mod/proc2d
+##$ABSF1= 0
+##$ABSF2= 0
+##$ABSG= 0
+##$ABSL= 0
 ##$ALPHA= 0
 ##$AQORDER= 0
 ##$ASSFAC= 0
@@ -19,42 +19,42 @@ $$ process C:\Bruker\TopSpin3.6.2\prog\mod\xwish3.exe
 ##$ASSWID= 0
 ##$AUNMP= <>
 ##$AXLEFT= 0
-##$AXNAME= <>
-##$AXNUC= <off>
+##$AXNAME= <F1>
+##$AXNUC= <13C>
 ##$AXRIGHT= 0
 ##$AXTYPE= 0
 ##$AXUNIT= <>
 ##$AZFE= 0.1
 ##$AZFW= 0.5
-##$BCFW= 1
+##$BCFW= 0
 ##$BC_mod= 0
 ##$BYTORDP= 0
 ##$COROFFS= 0
 ##$CY= 0
 ##$DATMOD= 0
-##$DC= 1
+##$DC= 0
 ##$DFILT= <>
 ##$DTYPP= 0
 ##$ERETIC= no
 ##$F1P= 230
 ##$F2P= -10
 ##$FCOR= 0.5
-##$FTSIZE= 0
-##$FT_mod= 0
-##$GAMMA= 1
+##$FTSIZE= 2048
+##$FT_mod= 6
+##$GAMMA= 0
 ##$GB= 0
 ##$INTBC= 1
 ##$INTSCL= 1
 ##$ISEN= 128
 ##$LB= 0
 ##$LEV0= 0
-##$LPBIN= 0
+##$LPBIN= 512
 ##$MAXI= 10000
 ##$MC2= 5
 ##$MEAN= 0
 ##$ME_mod= 2
 ##$MI= 0
-##$MddCEXP= yes
+##$MddCEXP= no
 ##$MddCT_SP= no
 ##$MddF180= no
 ##$MddLAMBDA= 0
@@ -67,7 +67,7 @@ $$ process C:\Bruker\TopSpin3.6.2\prog\mod\xwish3.exe
 ##$MddSEED= 0
 ##$MddSRSIZE= 0
 ##$Mdd_CsALG= 0
-##$Mdd_CsLAMBDA= 1
+##$Mdd_CsLAMBDA= 0
 ##$Mdd_CsNITER= 0
 ##$Mdd_CsNORM= 0
 ##$Mdd_CsVE= yes
@@ -78,7 +78,7 @@ $$ process C:\Bruker\TopSpin3.6.2\prog\mod\xwish3.exe
 ##$Mdd_LrZF= 0
 ##$Mdd_mod= 0
 ##$NCOEF= 32
-##$NC_proc= 0
+##$NC_proc= -3
 ##$NLEV= 0
 ##$NOISF1= 0
 ##$NOISF2= 0
@@ -91,7 +91,7 @@ $$ process C:\Bruker\TopSpin3.6.2\prog\mod\xwish3.exe
 ##$PHC1= 0
 ##$PH_mod= 0
 ##$PKNL= no
-##$PPARMOD= 0
+##$PPARMOD= 1
 ##$PPDIAG= 0
 ##$PPIPTYP= 0
 ##$PPMPNUM= 0
@@ -115,12 +115,12 @@ $$ process C:\Bruker\TopSpin3.6.2\prog\mod\xwish3.exe
 ##$SREF_mod= 1
 ##$SREGLST= <>
 ##$SSB= 2
-##$STSI= 0
+##$STSI= 2048
 ##$STSR= 0
 ##$SW_p= 33112.582781457
 ##$SYMM= 0
-##$S_DEV= 0
-##$TDeff= 0
+##$S_DEV= 10117
+##$TDeff= 512
 ##$TDoff= 0
 ##$TI= <>
 ##$TILT= no
@@ -133,7 +133,7 @@ $$ process C:\Bruker\TopSpin3.6.2\prog\mod\xwish3.exe
 ##$USERP4= <>
 ##$USERP5= <>
 ##$WDW= 4
-##$XDIM= 0
-##$YMAX_p= 0
-##$YMIN_p= 0
+##$XDIM= 128
+##$YMAX_p= 293192454
+##$YMIN_p= -358370172
 ##END=

@@ -1,0 +1,48 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:/data/2026/va/rc/exp_dataset/run_1/1287752-87-7 (6572)/15/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-12 09:22:49.597 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+$$ D:/data/2026/va/rc/exp_dataset/run_1/1287752-87-7 (6572)/15/audita.txt
+(   2,<2026-05-12 09:23:10.618 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <created by zg on 'Avance' (CZC1087C56) by user 'CZC1087C56\nmrsu'
+       on data set with UUID '25151306-4de4-11f1-a933-0030d62936cd'
+       started at 2026-05-12 09:22:49.624 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-12 09:23:10.617 +0000
+       configuration hash MD5:
+       7F E6 30 42 0C AE 00 D8 7F CA 1A 40 93 25 33 26
+       double data hash MD5: 128K
+       FD 4A 0E 1A 51 83 8D 0D 7F 26 FA 52 57 A3 CB 63>)
+(   3,<2026-05-12 10:23:01.225 +0100>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       em LB = 0.3 SI = 64K 
+       data hash MD5: 64K
+       CD 1A 01 F4 5E DC 35 9C 00 93 54 C6 73 B5 FE 3D>)
+(   4,<2026-05-12 10:23:01.288 +0100>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <ft FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       40 C1 38 F7 F5 E8 EC EB 88 4F AF 04 7D 36 0F F6>)
+(   5,<2026-05-12 10:23:01.631 +0100>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <apk 
+       data hash MD5: 64K
+       A8 A2 2F 76 02 69 9D CC CC 49 71 81 52 81 2A 0E>)
+(   6,<2026-05-12 10:23:01.694 +0100>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       F5 CC BF 53 88 FF D5 88 DC C1 0A 17 93 31 DA B6>)
+(   7,<2026-05-12 10:24:19.386 +0100>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = -10.80715 PHC1 = -178.8335 SI = 64K 
+       data hash MD5: 64K
+       70 65 7E EC 2B D8 64 2E 9B 1D 93 5E 1D 78 C9 37>)
+(   8,<2026-05-12 10:24:20.880 +0100>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <apk 
+       data hash MD5: 64K
+       94 FF BE 64 54 DB A0 16 09 F7 04 54 B6 9A CE 86>)
+##END=
+
+$$ hash MD5
+$$ 9F 54 71 7E 99 CC B9 2B 95 F0 70 BA CD CC 63 8A

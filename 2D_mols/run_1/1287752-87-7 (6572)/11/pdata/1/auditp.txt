@@ -1,0 +1,108 @@
+##TITLE= Audit trail, TopSpin 4.1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:/data/2026/va/rc/exp_dataset/run_1/1287752-87-7 (6572)/11/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-12 08:58:49.044 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <acquisition in progress>)
+$$ D:/data/2026/va/rc/exp_dataset/run_1/1287752-87-7 (6572)/11/audita.txt
+(   2,<2026-05-12 09:00:35.994 +0000>,<CZC1087C56\nmrsu>,<CZC1087C56>,<go4>,<TopSpin 4.1.3>,
+      <created by zg on 'Avance' (CZC1087C56) by user 'CZC1087C56\nmrsu'
+       on data set with UUID 'ca74bbde-4de0-11f1-9768-0030d62936cd'
+       started at 2026-05-12 08:58:49.074 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2026-05-12 09:00:35.992 +0000
+       configuration hash MD5:
+       7F E6 30 42 0C AE 00 D8 7F CA 1A 40 93 25 33 26
+       double data hash MD5: 128K
+       D3 C2 DD D2 F0 E0 36 BC 8B 8F 73 38 7E 8B E2 02>)
+(   3,<2026-05-12 10:00:23.675 +0100>,<nmrsu>,<CZC1087C56>,<xwish3>,<TopSpin 4.1.3>,
+      <ICON-NMR User ID: 600 user
+       double data hash MD5: 128K
+       D3 C2 DD D2 F0 E0 36 BC 8B 8F 73 38 7E 8B E2 02>)
+(   4,<2026-05-12 10:00:24.206 +0100>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = 88.8983 PHC1 = -0.07624054 SI = 64K 
+       data hash MD5: 64K
+       82 A9 50 7D 59 35 5A 51 AD 28 B4 EF CF EF AC 31>)
+(   5,<2026-05-12 10:00:26.096 +0100>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <apk 
+       data hash MD5: 64K
+       3C 94 FC 45 9B DC 30 2B 45 1C 23 B6 E3 05 31 C9>)
+(   6,<2026-05-12 10:00:26.159 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <Start of raw data processing
+       ef LB = 0.3 FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       15 1F 4B 91 5A A8 B7 9F 52 CB 8A FE 72 CB DF 0F>)
+(   7,<2026-05-12 10:00:26.237 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <apks 
+       data hash MD5: 64K
+       18 FB 98 24 B9 1E 13 55 11 24 A0 38 64 6C 4C 35>)
+(   8,<2026-05-12 10:00:26.377 +0100>,<nmrsu/600 user>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <abs ABSG = 5 
+       data hash MD5: 64K
+       1C 5F 57 A6 16 4B DF 71 2D 05 71 1F 28 77 56 0C>)
+(   9,<2026-05-12 10:00:26.440 +0100>,<nmrsu/600 user>,<CZC1087C56>,<peak>,<TopSpin 4.1.3>,
+      <1D Peak picking
+       data hash MD5: 64K
+       1C 5F 57 A6 16 4B DF 71 2D 05 71 1F 28 77 56 0C>)
+(  10,<2026-05-12 10:00:27.354 +0100>,<nmrsu/600 user>,<CZC1087C56>,<xwish3>,<TopSpin 4.1.3>,
+      <ICON-NMR User ID: 600 user
+       data hash MD5: 64K
+       1C 5F 57 A6 16 4B DF 71 2D 05 71 1F 28 77 56 0C>)
+(  11,<2026-05-12 10:00:41.898 +0100>,<nmrsu>,<CZC1087C56>,<dataserver>,<TopSpin 4.1.3>,
+      <INTEGRAL DELETE [8.975;-12.901]
+       data hash MD5: 64K
+       1C 5F 57 A6 16 4B DF 71 2D 05 71 1F 28 77 56 0C>)
+(  12,<2026-05-12 10:00:41.913 +0100>,<nmrsu>,<CZC1087C56>,<dataserver>,<TopSpin 4.1.3>,
+      <INTEGRAL DELETE [-18.442;-23.178]
+       data hash MD5: 64K
+       1C 5F 57 A6 16 4B DF 71 2D 05 71 1F 28 77 56 0C>)
+(  13,<2026-05-12 10:00:41.913 +0100>,<nmrsu>,<CZC1087C56>,<dataserver>,<TopSpin 4.1.3>,
+      <INTEGRAL DELETE [-29.483;-37.267]
+       data hash MD5: 64K
+       1C 5F 57 A6 16 4B DF 71 2D 05 71 1F 28 77 56 0C>)
+(  14,<2026-05-12 10:00:41.929 +0100>,<nmrsu>,<CZC1087C56>,<dataserver>,<TopSpin 4.1.3>,
+      <INTEGRAL DELETE [-47.245;-49.610]
+       data hash MD5: 64K
+       1C 5F 57 A6 16 4B DF 71 2D 05 71 1F 28 77 56 0C>)
+(  15,<2026-05-12 10:00:41.929 +0100>,<nmrsu>,<CZC1087C56>,<dataserver>,<TopSpin 4.1.3>,
+      <INTEGRAL DELETE [-57.212;-59.669]
+       data hash MD5: 64K
+       1C 5F 57 A6 16 4B DF 71 2D 05 71 1F 28 77 56 0C>)
+(  16,<2026-05-12 10:00:41.945 +0100>,<nmrsu>,<CZC1087C56>,<dataserver>,<TopSpin 4.1.3>,
+      <INTEGRAL DELETE [-70.839;-89.273]
+       data hash MD5: 64K
+       1C 5F 57 A6 16 4B DF 71 2D 05 71 1F 28 77 56 0C>)
+(  17,<2026-05-12 10:00:41.945 +0100>,<nmrsu>,<CZC1087C56>,<dataserver>,<TopSpin 4.1.3>,
+      <INTEGRAL DELETE [-94.194;-96.413]
+       data hash MD5: 64K
+       1C 5F 57 A6 16 4B DF 71 2D 05 71 1F 28 77 56 0C>)
+(  18,<2026-05-12 10:00:41.960 +0100>,<nmrsu>,<CZC1087C56>,<dataserver>,<TopSpin 4.1.3>,
+      <INTEGRAL DELETE [-102.110;-103.738]
+       data hash MD5: 64K
+       1C 5F 57 A6 16 4B DF 71 2D 05 71 1F 28 77 56 0C>)
+(  19,<2026-05-12 10:00:41.960 +0100>,<nmrsu>,<CZC1087C56>,<dataserver>,<TopSpin 4.1.3>,
+      <INTEGRAL DELETE [-114.228;-141.026]
+       data hash MD5: 64K
+       1C 5F 57 A6 16 4B DF 71 2D 05 71 1F 28 77 56 0C>)
+(  20,<2026-05-12 10:00:41.960 +0100>,<nmrsu>,<CZC1087C56>,<dataserver>,<TopSpin 4.1.3>,
+      <INTEGRAL DELETE [-153.572;-170.391]
+       data hash MD5: 64K
+       1C 5F 57 A6 16 4B DF 71 2D 05 71 1F 28 77 56 0C>)
+(  21,<2026-05-12 10:00:41.976 +0100>,<nmrsu>,<CZC1087C56>,<dataserver>,<TopSpin 4.1.3>,
+      <INTEGRAL DELETE [-177.308;-186.176]
+       data hash MD5: 64K
+       1C 5F 57 A6 16 4B DF 71 2D 05 71 1F 28 77 56 0C>)
+(  22,<2026-05-12 10:00:41.976 +0100>,<nmrsu>,<CZC1087C56>,<dataserver>,<TopSpin 4.1.3>,
+      <INTEGRAL DELETE [-191.091;-213.877]
+       data hash MD5: 64K
+       1C 5F 57 A6 16 4B DF 71 2D 05 71 1F 28 77 56 0C>)
+(  23,<2026-05-12 10:00:50.607 +0100>,<nmrsu>,<CZC1087C56>,<proc1d>,<TopSpin 4.1.3>,
+      <apk 
+       data hash MD5: 64K
+       36 5F 5B 5F 97 B6 DB 0A 4B 06 2F 14 21 E0 EA 1F>)
+##END=
+
+$$ hash MD5
+$$ 9A 59 94 FF BC AB 97 F6 68 CF AA C8 42 2A 64 5B

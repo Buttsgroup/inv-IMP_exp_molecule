@@ -1,0 +1,5 @@
+   Current data set:
+   NAME =	1287752-87-7 (6572)	EXPNO =	11	PROCNO = 1
+   DU   =	D:/data/2026/va/rc/exp_dataset/run_1
+
+   Number   Integrated Region     Integral

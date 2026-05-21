@@ -1,0 +1,36 @@
+##TITLE= Audit trail, TopSpin 3.6.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= NMR Superuser
+$$ C:/Data/2026/va/rc/exp_dataset/run_5/nmrsu/(85)/1/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2026-05-08 16:39:22.941 +0100>,<NMR Superuser>,<CZC4030R51>,<go4>,<TopSpin 3.6.2>,
+      <created by zg
+	started at 2026-05-08 16:39:00.889 +0100,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       75 F1 DB 61 59 0D 43 81 E7 C5 F1 3B AA 7F FB 8D
+       data hash MD5: 64K
+       C1 D0 A0 9F DA 40 34 AF FA 7B C0 EE D5 D7 93 D8>)
+(   2,<2026-05-08 16:39:23.066 +0100>,<NMR Superuser>,<CZC4030R51>,<audit>,<TopSpin 3.6.2>,
+      <user comment:
+       ICON-NMR User ID: nmrsu
+       data hash MD5: 64K
+       C1 D0 A0 9F DA 40 34 AF FA 7B C0 EE D5 D7 93 D8>)
+(   3,<2026-05-08 16:39:27.877 +0100>,<NMR Superuser>,<CZC4030R51>,<proc1d>,<TopSpin 3.6.2>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = 246.5193 PHC1 = 0.3971677 SI = 64K 
+       data hash MD5: 64K
+       8E B1 CD 33 01 4B 26 3D 0C A9 DE 25 D5 95 4D 3B>)
+(   4,<2026-05-08 16:39:27.955 +0100>,<NMR Superuser>,<CZC4030R51>,<proc1d>,<TopSpin 3.6.2>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       32 FF C8 33 91 11 D4 8D 5C BC 50 A3 BE 23 CA 8E>)
+(   5,<2026-05-08 16:39:33.192 +0100>,<NMR Superuser>,<CZC4030R51>,<proc1d>,<TopSpin 3.6.2>,
+      <apk 
+       data hash MD5: 64K
+       A6 82 90 53 76 B6 72 C6 26 63 56 01 0A E9 5E C1>)
+##END=
+
+$$ hash MD5
+$$ A8 11 6F 96 2A E2 78 50 C4 69 84 39 1E 47 8F 32

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList>
+  <PeakList1D>
+    <PeakList1DHeader creator="nmrsu" date="2026-05-12T10:00:26.456+01:00" expNo="11" name="1287752-87-7 (6572)" owner="" procNo="1" source="D:/data/2026/va/rc/exp_dataset/run_1">
+      <PeakPickDetails>F1=10.521750ppm, F2=-222.521744ppm, MI=0.00cm, MAXI=10000.00cm, PC=1.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="2.202789" intensity="1.051344e-01" type="0"/>
+    <Peak1D F1="-52.498783" intensity="1.052130e-01" type="0"/>
+    <Peak1D F1="-79.364410" intensity="1.174463e-01" type="0"/>
+    <Peak1D F1="-79.454803" intensity="2.578467e-01" type="0"/>
+    <Peak1D F1="-81.714485" intensity="1.304751e-01" type="0"/>
+    <Peak1D F1="-88.859024" intensity="1.466987e-01" type="0"/>
+    <Peak1D F1="-89.151123" intensity="1.090090e+00" type="0"/>
+    <Peak1D F1="-89.169907" intensity="4.266175e-01" type="0"/>
+    <Peak1D F1="-103.630341" intensity="1.000790e-01" type="0"/>
+    <Peak1D F1="-185.765060" intensity="1.005130e-01" type="0"/>
+  </PeakList1D>
+</PeakList>

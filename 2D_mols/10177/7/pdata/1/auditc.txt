@@ -1,0 +1,3 @@
+TITLE=fresh 10177 in CDCl3
+140526
+Selective Gradient 1H Excitation @  5.740ppmTITLE_END

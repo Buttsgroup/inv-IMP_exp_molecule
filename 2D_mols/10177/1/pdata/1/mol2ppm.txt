@@ -1,0 +1,4 @@
+# 2026-05-14 10:06:36 +0200 nmrsu@CZC4323K67
+# TOPSPIN Molecule to PPM ranges correlations
+# /home/data/2026/cb/mx23826/10177/1/pdata/1
+# Start [PPM]     End [PPM]     Atom Numbers

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList>
+  <PeakList1D>
+    <PeakList1DHeader creator="nmrsu" date="2026-05-18T12:50:11.973+01:00" expNo="11" name="L_tetrahydropalmitine" owner="" procNo="1" source="D:/data/2026/cb/ga">
+      <PeakPickDetails>F1=254.708603ppm, F2=-14.708690ppm, MI=0.00cm, MAXI=10000.00cm, PC=1.400
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="150.271042" intensity="3.593655e+00" type="0"/>
+    <Peak1D F1="147.475952" intensity="3.349182e+00" type="0"/>
+    <Peak1D F1="147.426743" intensity="3.514660e+00" type="0"/>
+    <Peak1D F1="145.043350" intensity="2.998709e+00" type="0"/>
+    <Peak1D F1="129.686951" intensity="3.152326e+00" type="0"/>
+    <Peak1D F1="128.653595" intensity="3.140408e+00" type="0"/>
+    <Peak1D F1="127.718506" intensity="3.479057e+00" type="0"/>
+    <Peak1D F1="126.782890" intensity="3.694288e+00" type="0"/>
+    <Peak1D F1="123.895760" intensity="5.527596e+00" type="0"/>
+    <Peak1D F1="111.344315" intensity="5.080710e+00" type="0"/>
+    <Peak1D F1="110.937363" intensity="5.098848e+00" type="0"/>
+    <Peak1D F1="108.590187" intensity="4.693733e+00" type="0"/>
+    <Peak1D F1="77.384254" intensity="1.469892e+01" type="0"/>
+    <Peak1D F1="77.172264" intensity="1.500000e+01" type="0"/>
+    <Peak1D F1="76.959839" intensity="1.452964e+01" type="0"/>
+    <Peak1D F1="60.179264" intensity="6.988650e+00" type="0"/>
+    <Peak1D F1="59.323635" intensity="6.750647e+00" type="0"/>
+    <Peak1D F1="56.077339" intensity="7.404788e+00" type="0"/>
+    <Peak1D F1="55.860500" intensity="7.674035e+00" type="0"/>
+    <Peak1D F1="55.843143" intensity="7.745291e+00" type="0"/>
+    <Peak1D F1="54.010014" intensity="5.487260e+00" type="0"/>
+    <Peak1D F1="51.531734" intensity="5.219516e+00" type="0"/>
+    <Peak1D F1="36.323044" intensity="5.395797e+00" type="0"/>
+    <Peak1D F1="29.101303" intensity="5.481474e+00" type="0"/>
+  </PeakList1D>
+</PeakList>

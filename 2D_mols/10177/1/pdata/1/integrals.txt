@@ -1,0 +1,6 @@
+   Current data set:
+   NAME =	10177	EXPNO =	1	PROCNO = 1
+   DU   =	/home/data/2026/cb/mx23826
+
+   Number   Integrated Region     Integral
+     1      5.805      5.674         0.96254
